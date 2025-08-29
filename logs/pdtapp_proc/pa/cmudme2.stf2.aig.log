@@ -1,0 +1,96 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/cmudme2.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/cmudme2.stf2.aig
+[runlim] argv[7]:		./invariants_pa/cmudme2.stf2.aig
+[runlim] start:			Tue May 13 20:22:28 2025
+[runlim] main pid:		1301
+certify app: -f -i ./benchmarks/stf2/cmudme2.stf2.aig ./invariants_pa/cmudme2.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=67157,|B|=67020)
+ITP time limit: -1
+[runlim] sample:		9.5 seconds, 171.7 MB
+[runlim] sample:		19.5 seconds, 189.4 MB
+[runlim] sample:		29.2 seconds, 204.7 MB
+[runlim] sample:		39.2 seconds, 217.3 MB
+[runlim] sample:		49.2 seconds, 229.7 MB
+[runlim] sample:		59.0 seconds, 243.1 MB
+[runlim] sample:		69.0 seconds, 256.0 MB
+[runlim] sample:		79.0 seconds, 270.7 MB
+[runlim] sample:		89.0 seconds, 286.4 MB
+[runlim] sample:		99.0 seconds, 297.0 MB
+[runlim] sample:		109.0 seconds, 307.3 MB
+[runlim] sample:		118.6 seconds, 320.2 MB
+[runlim] sample:		128.6 seconds, 329.2 MB
+[runlim] sample:		138.6 seconds, 336.9 MB
+[runlim] sample:		147.8 seconds, 346.2 MB
+[runlim] sample:		157.8 seconds, 356.2 MB
+[runlim] sample:		167.8 seconds, 375.8 MB
+[runlim] sample:		177.2 seconds, 389.5 MB
+[runlim] sample:		187.2 seconds, 402.9 MB
+[runlim] sample:		197.2 seconds, 424.1 MB
+[runlim] sample:		207.2 seconds, 446.7 MB
+[runlim] sample:		217.2 seconds, 463.5 MB
+[runlim] sample:		227.2 seconds, 475.4 MB
+[runlim] sample:		236.8 seconds, 486.2 MB
+[runlim] sample:		246.8 seconds, 493.1 MB
+[runlim] sample:		256.8 seconds, 511.5 MB
+[runlim] sample:		266.6 seconds, 520.7 MB
+[runlim] sample:		276.6 seconds, 524.9 MB
+[runlim] sample:		286.6 seconds, 524.9 MB
+[runlim] sample:		296.4 seconds, 524.9 MB
+[runlim] sample:		306.4 seconds, 524.9 MB
+[runlim] sample:		316.4 seconds, 524.9 MB
+[runlim] sample:		326.3 seconds, 524.9 MB
+[runlim] sample:		336.2 seconds, 524.9 MB
+[runlim] sample:		346.2 seconds, 524.9 MB
+[runlim] sample:		356.2 seconds, 524.9 MB
+[runlim] sample:		366.1 seconds, 524.9 MB
+[runlim] sample:		376.1 seconds, 528.2 MB
+[runlim] sample:		386.1 seconds, 530.5 MB
+[runlim] sample:		395.6 seconds, 531.3 MB
+[runlim] sample:		405.5 seconds, 537.2 MB
+[runlim] sample:		415.6 seconds, 542.6 MB
+[runlim] sample:		425.5 seconds, 550.6 MB
+[runlim] sample:		435.5 seconds, 557.3 MB
+[runlim] sample:		445.5 seconds, 566.9 MB
+[runlim] sample:		455.5 seconds, 577.5 MB
+[runlim] sample:		465.5 seconds, 589.6 MB
+[runlim] sample:		475.4 seconds, 599.1 MB
+[runlim] sample:		485.4 seconds, 599.9 MB
+[runlim] sample:		494.9 seconds, 599.9 MB
+[runlim] sample:		504.9 seconds, 599.9 MB
+[runlim] sample:		514.8 seconds, 599.9 MB
+[runlim] sample:		524.4 seconds, 599.9 MB
+[runlim] sample:		534.4 seconds, 599.9 MB
+[runlim] sample:		544.4 seconds, 599.9 MB
+Solver stats: 134032/166056 vars/clauses
+Solver stats: 3523989/1049622161/137143(102643) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 512.47 s (norm 512.47 s)
+computing interpolant from refutation proof of size 421371 (AIG nodes: 134899)
+[runlim] sample:		554.4 seconds, 606.1 MB
+[runlim] sample:		564.4 seconds, 606.1 MB
+[runlim] sample:		574.4 seconds, 901.8 MB
+[runlim] sample:		584.4 seconds, 1540.9 MB
+[runlim] sample:		594.4 seconds, 2318.5 MB
+[runlim] sample:		604.4 seconds, 3055.3 MB
+[runlim] sample:		614.4 seconds, 3814.3 MB
+[runlim] end:			Tue May 13 20:32:58 2025
+[runlim] status:		out of memory
+[runlim] result:		1
+[runlim] children:		0
+[runlim] real:			630.49 seconds
+[runlim] time:			618.77 seconds
+[runlim] space:			4097.9 MB
+[runlim] samples:		6296

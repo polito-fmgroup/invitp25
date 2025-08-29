@@ -1,0 +1,32 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/st/pj2010.st.aig
+[runlim] argv[3]:		./proc_invariants_td/pj2010.st-T2.aig
+[runlim] argv[4]:		./gfp_invariants_td/pj2010.st-T2.aig
+[runlim] start:			Mon May 19 23:38:17 2025
+[runlim] main pid:		468
+gfp app: ../pdtinv25/benchmarks/st/pj2010.st.aig ./proc_invariants_td/pj2010.st-T2.aig ./gfp_invariants_td/pj2010.st-T2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 736
+FATAL ERROR: fix point not reached
+             File /mnt/c/Users/PAS/Desktop/PostDoc/ModelChecking/PdTRAV/pdtools/pdtrav/src/trav/travSat.c -> Line 17201
+pdtapp: /mnt/c/Users/PAS/Desktop/PostDoc/ModelChecking/PdTRAV/pdtools/pdtrav/src/trav/travSat.c:17201: int itpStrengthenReachedGfp(Trav_ItpTravMgr_t*, int*, int, int, int, int): Assertion `fp' failed.
+[runlim] sample:		0.8 seconds, 92.6 MB
+[runlim] end:			Mon May 19 23:38:37 2025
+[runlim] status:		signal(6)
+[runlim] result:		134
+[runlim] children:		0
+[runlim] real:			20.05 seconds
+[runlim] time:			1.51 seconds
+[runlim] space:			92.6 MB
+[runlim] samples:		191

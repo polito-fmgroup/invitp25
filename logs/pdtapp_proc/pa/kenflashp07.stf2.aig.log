@@ -1,0 +1,77 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/kenflashp07.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/kenflashp07.stf2.aig
+[runlim] argv[7]:		./invariants_pa/kenflashp07.stf2.aig
+[runlim] start:			Tue May 13 20:45:30 2025
+[runlim] main pid:		1335
+certify app: -f -i ./benchmarks/stf2/kenflashp07.stf2.aig ./invariants_pa/kenflashp07.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=3533,|B|=3294)
+ITP time limit: -1
+Solver stats: 6740/14875 vars/clauses
+Solver stats: 187/4544/6(5) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.00 s (norm 0.00 s)
+computing interpolant from refutation proof of size 15719 (AIG nodes: 8199)
+ITP proof unit res. cl,: 42(A:18/B:23/AB:1 - equiv:1)
+ITP proof two res. cl: 3(AB:1)
+ITP core: (68,668 + 47) / 15720
+ITP proof core: (root: 70,0 + chain: 47 (res: 73) - ref2: 40) / tot:15722
+ITP proof remapped roots: 9 - eq nodes: 37 - tot: 19
+ROOT stats - zero: 31 - one: 30 - lit: 6 - clause: 1
+ITP proof core: (root: 9,0 + chain: 10 (res: 12) - ref2: 6) / tot:19
+ITP proof remapped roots: 9 - eq nodes: 1 - tot: 18
+ROOT stats - zero: 0 - one: 0 - lit: 6 - clause: 1
+ITP proof core: (root: 9,0 + chain: 9 (res: 11) - ref2: 5) / tot:18
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 9,0 + chain: 9 (res: 11) - ref2: 5) / tot:18
+ITP proof remapped roots: 9 - eq nodes: 0 - tot: 18
+ROOT stats - zero: 0 - one: 0 - lit: 6 - clause: 1
+ITP proof core: (root: 9,0 + chain: 9 (res: 11) - ref2: 5) / tot:18
+ITP proof red Simpl (impl: 0): 0
+ITP proof core: (root: 9,0 + chain: 9 (res: 11) - ref2: 5) / tot:18
+ITP proof remapped roots: 9 - eq nodes: 0 - tot: 18
+ROOT stats - zero: 0 - one: 0 - lit: 6 - clause: 1
+ITP proof core: (root: 9,0 + chain: 9 (res: 11) - ref2: 5) / tot:18
+ITP proof dupv: 0 - implNodesOdc: 0
+ITP proof core: (root: 9,0 + chain: 9 (res: 11) - ref2: 5) / tot:18
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 8204
+interpolant stats: clause terms/a/o/ao -> 9/0/0/9 - A nodes: 9 (and->or): 48
+STRUCT ODC[OR:2]: 14 -> 14
+TOT NNF SIMPL: 14 -> (abcBal: 13) -> 13 (1 iterations)
+itp opt: 13 -> 13
+Checking inductive invariant of size. 5
+
+Check Done for init proved
+Checking inductive invariant of size. 5
+
+Check Done invariant proved - time: 0.01 s (norm 0.01 s)
+Checking property of size. 3286
+
+Check Done property proved - time: 0.01 s (norm 0.01 s)
+Writing invar to ./proc_invariants_pa/kenflashp07.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 20:45:30 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.84 seconds
+[runlim] time:			0.22 seconds
+[runlim] space:			82.9 MB
+[runlim] samples:		7

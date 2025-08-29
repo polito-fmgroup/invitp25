@@ -1,0 +1,57 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/boblivear.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/boblivear.stf2.aig
+[runlim] argv[4]:		./gfp_invariants_pa/boblivear.stf2.aig
+[runlim] start:			Mon May 19 20:26:09 2025
+[runlim] main pid:		392
+gfp app: ../pdtinv25/benchmarks/stf2/boblivear.stf2.aig ./proc_invariants_pa/boblivear.stf2.aig ./gfp_invariants_pa/boblivear.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 98430
+[runlim] sample:		9.2 seconds, 205.6 MB
+[runlim] sample:		19.2 seconds, 205.6 MB
+[runlim] sample:		29.2 seconds, 205.6 MB
+[runlim] sample:		39.2 seconds, 238.3 MB
+[runlim] sample:		49.2 seconds, 238.3 MB
+[runlim] sample:		59.2 seconds, 238.3 MB
+
+GFP iteration [0] - reached size: 1964
+
+GFP iteration [1] - reached size: 1912
+
+GFP iteration [2] - reached size: 1900
+
+GFP iteration [3] - reached size: 1891
+
+GFP iteration [4] - reached size: 1881
+
+GFP iteration [5] - reached size: 1877
+
+GFP iteration [6] - reached size: 1875
+
+GFP iteration [7] - reached size: 1873
+
+GFP iteration [8] - reached size: 1873
+GFP reached reduction iter 0: 98430 -> 1872
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Mon May 19 20:27:16 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			67.10 seconds
+[runlim] time:			65.91 seconds
+[runlim] space:			240.1 MB
+[runlim] samples:		669

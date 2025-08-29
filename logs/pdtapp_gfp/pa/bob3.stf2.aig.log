@@ -1,0 +1,82 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/bob3.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/bob3.stf2.aig
+[runlim] argv[4]:		./gfp_invariants_pa/bob3.stf2.aig
+[runlim] start:			Mon May 19 20:20:23 2025
+[runlim] main pid:		384
+gfp app: ../pdtinv25/benchmarks/stf2/bob3.stf2.aig ./proc_invariants_pa/bob3.stf2.aig ./gfp_invariants_pa/bob3.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 120853
+[runlim] sample:		9.7 seconds, 244.6 MB
+[runlim] sample:		19.7 seconds, 244.6 MB
+[runlim] sample:		29.7 seconds, 244.6 MB
+[runlim] sample:		39.7 seconds, 244.6 MB
+[runlim] sample:		49.7 seconds, 244.6 MB
+[runlim] sample:		59.7 seconds, 244.6 MB
+[runlim] sample:		69.7 seconds, 244.6 MB
+[runlim] sample:		79.7 seconds, 244.6 MB
+[runlim] sample:		89.7 seconds, 244.6 MB
+[runlim] sample:		99.7 seconds, 244.6 MB
+[runlim] sample:		109.7 seconds, 244.6 MB
+[runlim] sample:		119.7 seconds, 244.6 MB
+[runlim] sample:		129.7 seconds, 244.6 MB
+[runlim] sample:		139.7 seconds, 244.6 MB
+[runlim] sample:		149.7 seconds, 244.6 MB
+[runlim] sample:		159.7 seconds, 244.6 MB
+[runlim] sample:		169.7 seconds, 298.1 MB
+[runlim] sample:		179.7 seconds, 298.1 MB
+[runlim] sample:		189.7 seconds, 298.1 MB
+[runlim] sample:		199.6 seconds, 298.1 MB
+[runlim] sample:		209.6 seconds, 298.1 MB
+[runlim] sample:		219.6 seconds, 298.1 MB
+[runlim] sample:		229.5 seconds, 298.1 MB
+[runlim] sample:		239.5 seconds, 298.1 MB
+[runlim] sample:		249.5 seconds, 298.1 MB
+[runlim] sample:		259.3 seconds, 298.1 MB
+[runlim] sample:		269.3 seconds, 298.1 MB
+[runlim] sample:		279.1 seconds, 298.1 MB
+[runlim] sample:		289.1 seconds, 298.1 MB
+
+GFP iteration [0] - reached size: 890
+
+GFP iteration [1] - reached size: 829
+
+GFP iteration [2] - reached size: 827
+
+GFP iteration [3] - reached size: 826
+
+GFP iteration [4] - reached size: 825
+
+GFP iteration [5] - reached size: 823
+
+GFP iteration [6] - reached size: 821
+
+GFP iteration [7] - reached size: 819
+
+GFP iteration [8] - reached size: 817
+
+GFP iteration [9] - reached size: 817
+GFP reached reduction iter 0: 120853 -> 816
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Mon May 19 20:25:19 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			296.79 seconds
+[runlim] time:			294.73 seconds
+[runlim] space:			313.4 MB
+[runlim] samples:		2958

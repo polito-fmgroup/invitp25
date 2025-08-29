@@ -1,0 +1,45 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/pdtvisvending00.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/pdtvisvending00.stf2.aig
+[runlim] argv[4]:		./gfp_invariants_pa/pdtvisvending00.stf2.aig
+[runlim] start:			Mon May 19 23:26:59 2025
+[runlim] main pid:		350
+gfp app: ../pdtinv25/benchmarks/stf2/pdtvisvending00.stf2.aig ./proc_invariants_pa/pdtvisvending00.stf2.aig ./gfp_invariants_pa/pdtvisvending00.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 6431
+
+GFP iteration [0] - reached size: 375
+
+GFP iteration [1] - reached size: 361
+
+GFP iteration [2] - reached size: 317
+
+GFP iteration [3] - reached size: 316
+
+GFP iteration [4] - reached size: 314
+
+GFP iteration [5] - reached size: 314
+GFP reached reduction iter 0: 6431 -> 313
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Mon May 19 23:27:01 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			2.14 seconds
+[runlim] time:			0.89 seconds
+[runlim] space:			91.2 MB
+[runlim] samples:		15

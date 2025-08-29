@@ -1,0 +1,26 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/pdtpmss1269b.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/pdtpmss1269b.stf2.aig
+[runlim] start:			Thu May 15 13:08:15 2025
+[runlim] main pid:		656
+certify app: ../pdtinv25/benchmarks/stf2/pdtpmss1269b.stf2.aig ./proc_invariants_pa/pdtpmss1269b.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Error Loading AIGER file ./proc_invariants_pa/pdtpmss1269b.stf2.aig - error line 1: expected 'a' as first character.
+[runlim] sample:		0.8 seconds, 74.9 MB
+[runlim] sample:		1.6 seconds, 74.9 MB
+[runlim] end:			Thu May 15 13:08:43 2025
+[runlim] status:		segmentation fault
+[runlim] result:		139
+[runlim] children:		0
+[runlim] real:			28.20 seconds
+[runlim] time:			2.03 seconds
+[runlim] space:			74.9 MB
+[runlim] samples:		279

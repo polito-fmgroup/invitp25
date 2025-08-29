@@ -1,0 +1,49 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/oc8051xiommuo5.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/oc8051xiommuo5.stf2.aig
+[runlim] argv[4]:		./gfp_invariants_pa/oc8051xiommuo5.stf2.aig
+[runlim] start:			Mon May 19 20:53:08 2025
+[runlim] main pid:		462
+gfp app: ../pdtinv25/benchmarks/stf2/oc8051xiommuo5.stf2.aig ./proc_invariants_pa/oc8051xiommuo5.stf2.aig ./gfp_invariants_pa/oc8051xiommuo5.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 81144
+[runlim] sample:		9.3 seconds, 257.9 MB
+[runlim] sample:		19.3 seconds, 299.9 MB
+
+GFP iteration [0] - reached size: 3316
+
+GFP iteration [1] - reached size: 2780
+
+GFP iteration [2] - reached size: 2763
+
+GFP iteration [3] - reached size: 2755
+
+GFP iteration [4] - reached size: 2751
+
+GFP iteration [5] - reached size: 2745
+
+GFP iteration [6] - reached size: 2745
+GFP reached reduction iter 0: 81144 -> 2744
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Mon May 19 20:53:37 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			29.75 seconds
+[runlim] time:			28.30 seconds
+[runlim] space:			305.5 MB
+[runlim] samples:		293

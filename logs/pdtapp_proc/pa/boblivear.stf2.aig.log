@@ -1,0 +1,84 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/boblivear.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/boblivear.stf2.aig
+[runlim] argv[7]:		./invariants_pa/boblivear.stf2.aig
+[runlim] start:			Tue May 13 20:15:24 2025
+[runlim] main pid:		1293
+certify app: -f -i ./benchmarks/stf2/boblivear.stf2.aig ./invariants_pa/boblivear.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=3281,|B|=3325)
+ITP time limit: -1
+Solver stats: 6384/9583 vars/clauses
+Solver stats: 54917/6758369/15341(12491) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 1.30 s (norm 1.30 s)
+computing interpolant from refutation proof of size 29386 (AIG nodes: 6901)
+ITP proof unit res. cl,: 1737(A:1019/B:682/AB:36 - equiv:1)
+ITP proof two res. cl: 362(AB:47)
+ITP core: (8846,483 + 15129) / 29387
+ITP proof core: (root: 8848,0 + chain: 15129 (res: 2761011) - ref2: 6288) / tot:29389
+ITP proof remapped roots: 1735 - eq nodes: 3367 - tot: 13497
+ROOT stats - zero: 1630 - one: 5483 - lit: 1379 - clause: 354
+ITP proof core: (root: 1735,0 + chain: 11762 (res: 341012) - ref2: 5486) / tot:13497
+ITP proof remapped roots: 1735 - eq nodes: 118 - tot: 13379
+ROOT stats - zero: 0 - one: 0 - lit: 1379 - clause: 354
+ITP proof core: (root: 1735,0 + chain: 11644 (res: 340687) - ref2: 5471) / tot:13379
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 1735,0 + chain: 11644 (res: 340687) - ref2: 5471) / tot:13379
+bdd merge: 150
+ITP proof remapped roots: 1735 - eq nodes: 180 - tot: 13199
+ROOT stats - zero: 0 - one: 0 - lit: 1379 - clause: 354
+ITP proof core: (root: 1732,0 + chain: 11464 (res: 334771) - ref2: 5443) / tot:13199
+ITP proof red Simpl (impl: 0): 5213
+ITP proof core: (root: 1732,0 + chain: 11464 (res: 329558) - ref2: 5443) / tot:13199
+ITP proof remapped roots: 1732 - eq nodes: 0 - tot: 13196
+ROOT stats - zero: 0 - one: 0 - lit: 1376 - clause: 354
+ITP proof core: (root: 1732,0 + chain: 11464 (res: 329539) - ref2: 5443) / tot:13196
+ITP proof dupv: 0 - implNodesOdc: 30971
+ITP proof core: (root: 1732,0 + chain: 11464 (res: 298568) - ref2: 5443) / tot:13196
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 239471
+interpolant stats: clause terms/a/o/ao -> 11464/0/0/11464 - A nodes: 11464 (and->or): 0
+TOT NNF SIMPL: 179618 -> (abcBal: 129897) -> 129437 (1 iterations)
+itp opt: 129437 -> 129437
+AIG OPT (tot aig: 134969): |128395| -> [runlim] sample:		9.4 seconds, 386.7 MB
+[runlim] sample:		19.4 seconds, 675.5 MB
+[runlim] sample:		29.4 seconds, 683.2 MB
+|103199| (tot aig: 110644)
+itp opt: 103199 -> 103199
+AIG OPT (tot aig: 110644): |103199| -> [runlim] sample:		39.4 seconds, 684.5 MB
+|102483| (tot aig: 109929)
+Checking inductive invariant of size. 2539
+
+Check Done for init proved
+Checking inductive invariant of size. 2539
+
+Check Done invariant proved - time: 1.17 s (norm 1.17 s)
+Checking property of size. 1108
+
+Check Done property proved - time: 0.03 s (norm 0.03 s)
+Writing invar to ./proc_invariants_pa/boblivear.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 20:16:07 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			43.19 seconds
+[runlim] time:			42.23 seconds
+[runlim] space:			684.5 MB
+[runlim] samples:		429

@@ -1,0 +1,76 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_td/boblivea.st-T2.aig
+[runlim] argv[6]:		./benchmarks/st/boblivea.st.aig
+[runlim] argv[7]:		./invariants_td/boblivea.st-T2.aig
+[runlim] start:			Tue May 13 21:48:56 2025
+[runlim] main pid:		525
+certify app: -t -i ./benchmarks/st/boblivea.st.aig ./invariants_td/boblivea.st-T2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 2529
+ITP (|A|=938,|B|=3013)
+ITP time limit: -1
+Solver stats: 3716/3537 vars/clauses
+Solver stats: 177/8112/18(17) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.00 s (norm 0.00 s)
+computing interpolant from refutation proof of size 9813 (AIG nodes: 6426)
+ITP proof unit res. cl,: 2299(A:160/B:2032/AB:107 - equiv:1)
+ITP proof two res. cl: 11(AB:0)
+ITP core: (2791,704 + 2315) / 9814
+ITP proof core: (root: 2793,0 + chain: 2315 (res: 4061) - ref2: 1741) / tot:9816
+ITP proof remapped roots: 133 - eq nodes: 2068 - tot: 380
+ROOT stats - zero: 172 - one: 2488 - lit: 65 - clause: 66
+ITP proof core: (root: 133,0 + chain: 247 (res: 945) - ref2: 202) / tot:380
+ITP proof remapped roots: 133 - eq nodes: 15 - tot: 365
+ROOT stats - zero: 0 - one: 0 - lit: 65 - clause: 66
+ITP proof core: (root: 133,0 + chain: 232 (res: 929) - ref2: 188) / tot:365
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 133,0 + chain: 232 (res: 929) - ref2: 188) / tot:365
+ITP proof remapped roots: 133 - eq nodes: 30 - tot: 335
+ROOT stats - zero: 0 - one: 0 - lit: 65 - clause: 66
+ITP proof core: (root: 107,0 + chain: 202 (res: 897) - ref2: 161) / tot:335
+ITP proof red Simpl (impl: 0): 3
+ITP proof core: (root: 107,0 + chain: 202 (res: 894) - ref2: 161) / tot:335
+ITP proof remapped roots: 107 - eq nodes: 0 - tot: 309
+ROOT stats - zero: 0 - one: 0 - lit: 39 - clause: 66
+ITP proof core: (root: 107,0 + chain: 202 (res: 894) - ref2: 161) / tot:309
+ITP proof dupv: 0 - implNodesOdc: 596
+ITP proof core: (root: 107,0 + chain: 202 (res: 298) - ref2: 161) / tot:309
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 6608
+interpolant stats: clause terms/a/o/ao -> 202/0/0/202 - A nodes: 202 (and->or): 48
+TOT NNF SIMPL: 93 -> (abcBal: 93) -> 93 (1 iterations)
+itp opt: 93 -> 93
+
+Check Done for init proved
+Checking inductive invariant of size. 2529
+
+Check Done invariant proved - time: 0.15 s (norm 0.15 s)
+Checking property of size. 392
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar to ./proc_invariants_td/boblivea.st-T2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 21:48:56 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.99 seconds
+[runlim] time:			0.27 seconds
+[runlim] space:			84.7 MB
+[runlim] samples:		8

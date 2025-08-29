@@ -1,0 +1,73 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/intel034.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/intel034.stf2.aig
+[runlim] argv[4]:		./gfp_invariants_pa/intel034.stf2.aig
+[runlim] start:			Mon May 19 20:46:18 2025
+[runlim] main pid:		422
+gfp app: ../pdtinv25/benchmarks/stf2/intel034.stf2.aig ./proc_invariants_pa/intel034.stf2.aig ./gfp_invariants_pa/intel034.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 158887
+[runlim] sample:		8.3 seconds, 397.0 MB
+[runlim] sample:		18.3 seconds, 397.0 MB
+[runlim] sample:		28.3 seconds, 397.0 MB
+[runlim] sample:		38.3 seconds, 397.0 MB
+[runlim] sample:		48.3 seconds, 397.0 MB
+[runlim] sample:		58.3 seconds, 397.0 MB
+[runlim] sample:		68.3 seconds, 397.0 MB
+[runlim] sample:		78.2 seconds, 458.1 MB
+[runlim] sample:		88.2 seconds, 458.1 MB
+[runlim] sample:		98.2 seconds, 458.1 MB
+[runlim] sample:		108.2 seconds, 458.1 MB
+[runlim] sample:		118.2 seconds, 458.8 MB
+
+GFP iteration [0] - reached size: 16955
+
+GFP iteration [1] - reached size: 16758
+[runlim] sample:		128.0 seconds, 459.8 MB
+
+GFP iteration [2] - reached size: 16677
+[runlim] sample:		138.0 seconds, 459.8 MB
+
+GFP iteration [3] - reached size: 16643
+[runlim] sample:		148.0 seconds, 459.8 MB
+
+GFP iteration [4] - reached size: 16635
+[runlim] sample:		157.9 seconds, 459.8 MB
+
+GFP iteration [5] - reached size: 16610
+[runlim] sample:		167.9 seconds, 459.8 MB
+
+GFP iteration [6] - reached size: 16602
+[runlim] sample:		177.9 seconds, 459.8 MB
+
+GFP iteration [7] - reached size: 16591
+[runlim] sample:		187.9 seconds, 459.8 MB
+
+GFP iteration [8] - reached size: 16586
+[runlim] sample:		197.9 seconds, 459.8 MB
+
+GFP iteration [9] - reached size: 16581
+GFP reached reduction iter 0: 158887 -> 16585
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Mon May 19 20:49:45 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			208.01 seconds
+[runlim] time:			205.00 seconds
+[runlim] space:			465.8 MB
+[runlim] samples:		2072

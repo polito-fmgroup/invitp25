@@ -1,0 +1,77 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_td/boblivear.st-T2.aig
+[runlim] argv[6]:		./benchmarks/st/boblivear.st.aig
+[runlim] argv[7]:		./invariants_td/boblivear.st-T2.aig
+[runlim] start:			Tue May 13 21:48:56 2025
+[runlim] main pid:		527
+certify app: -t -i ./benchmarks/st/boblivear.st.aig ./invariants_td/boblivear.st-T2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 5910
+ITP (|A|=683,|B|=6144)
+ITP time limit: -1
+Solver stats: 6682/6670 vars/clauses
+Solver stats: 24/13554/18(16) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.00 s (norm 0.00 s)
+computing interpolant from refutation proof of size 17754 (AIG nodes: 12659)
+ITP proof unit res. cl,: 5004(A:218/B:4706/AB:80 - equiv:1)
+ITP proof two res. cl: 13(AB:1)
+ITP core: (6054,458 + 5022) / 17755
+ITP proof core: (root: 6056,0 + chain: 5022 (res: 15195) - ref2: 3867) / tot:17757
+ITP proof remapped roots: 144 - eq nodes: 4653 - tot: 513
+ROOT stats - zero: 205 - one: 5707 - lit: 134 - clause: 8
+ITP proof core: (root: 144,0 + chain: 369 (res: 4883) - ref2: 304) / tot:513
+ITP proof remapped roots: 144 - eq nodes: 9 - tot: 504
+ROOT stats - zero: 0 - one: 0 - lit: 134 - clause: 8
+ITP proof core: (root: 144,0 + chain: 360 (res: 4862) - ref2: 295) / tot:504
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 144,0 + chain: 360 (res: 4862) - ref2: 295) / tot:504
+bdd merge: 96
+ITP proof remapped roots: 144 - eq nodes: 169 - tot: 335
+ROOT stats - zero: 0 - one: 0 - lit: 134 - clause: 8
+ITP proof core: (root: 81,0 + chain: 189 (res: 4678) - ref2: 142) / tot:335
+ITP proof red Simpl (impl: 0): 115
+ITP proof core: (root: 81,0 + chain: 189 (res: 4563) - ref2: 142) / tot:335
+ITP proof remapped roots: 81 - eq nodes: 0 - tot: 270
+ROOT stats - zero: 0 - one: 0 - lit: 71 - clause: 8
+ITP proof core: (root: 81,0 + chain: 189 (res: 4563) - ref2: 142) / tot:270
+ITP proof dupv: 0 - implNodesOdc: 4076
+ITP proof core: (root: 81,0 + chain: 189 (res: 487) - ref2: 142) / tot:270
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 13028
+interpolant stats: clause terms/a/o/ao -> 189/0/0/189 - A nodes: 189 (and->or): 48
+TOT NNF SIMPL: 87 -> (abcBal: 87) -> 87 (1 iterations)
+itp opt: 87 -> 87
+
+Check Done for init proved
+Checking inductive invariant of size. 5910
+
+Check Done invariant proved - time: 0.85 s (norm 0.85 s)
+Checking property of size. 175
+
+Check Done property proved - time: 0.01 s (norm 0.01 s)
+Writing invar to ./proc_invariants_td/boblivear.st-T2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 21:48:58 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.54 seconds
+[runlim] time:			1.06 seconds
+[runlim] space:			91.6 MB
+[runlim] samples:		15

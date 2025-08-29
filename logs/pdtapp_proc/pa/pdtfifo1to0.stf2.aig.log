@@ -1,0 +1,139 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/pdtfifo1to0.stf2.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/stf2/pdtfifo1to0.stf2.aig
+[runlim] argv[7]:		../pdtinv25/invariants_pa/pdtfifo1to0.stf2.aig
+[runlim] start:			Thu May 15 12:37:07 2025
+[runlim] main pid:		615
+certify app: -f -i ../pdtinv25/benchmarks/stf2/pdtfifo1to0.stf2.aig ../pdtinv25/invariants_pa/pdtfifo1to0.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=13886,|B|=14142)
+ITP time limit: -1
+[runlim] sample:		9.6 seconds, 102.9 MB
+[runlim] sample:		19.6 seconds, 110.6 MB
+[runlim] sample:		29.6 seconds, 117.8 MB
+[runlim] sample:		39.1 seconds, 124.3 MB
+Solver stats: 27723/47302 vars/clauses
+Solver stats: 2513070/207254481/77563(73701) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 45.83 s (norm 45.83 s)
+computing interpolant from refutation proof of size 135742 (AIG nodes: 30757)
+[runlim] sample:		49.1 seconds, 129.6 MB
+[runlim] sample:		59.1 seconds, 843.0 MB
+[runlim] sample:		69.1 seconds, 927.3 MB
+ITP proof unit res. cl,: 5112(A:5079/B:17/AB:16 - equiv:1)
+ITP proof two res. cl: 55(AB:25)
+ITP core: (46775,343 + 77675) / 135743
+ITP proof core: (root: 46777,0 + chain: 77675 (res: 102949295) - ref2: 25515) / tot:135745
+[runlim] sample:		79.1 seconds, 1493.6 MB
+ITP proof remapped roots: 9247 - eq nodes: 7362 - tot: 79560
+ROOT stats - zero: 10406 - one: 27124 - lit: 8990 - clause: 255
+ITP proof core: (root: 9247,0 + chain: 70313 (res: 4409646) - ref2: 25205) / tot:79560
+ITP proof remapped roots: 9247 - eq nodes: 17 - tot: 79543
+ROOT stats - zero: 0 - one: 0 - lit: 8990 - clause: 255
+ITP proof core: (root: 9247,0 + chain: 70296 (res: 4409590) - ref2: 25201) / tot:79543
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 9247,0 + chain: 70296 (res: 4409590) - ref2: 25201) / tot:79543
+[runlim] sample:		89.1 seconds, 1567.0 MB
+bdd merge: 6887
+ITP proof remapped roots: 9247 - eq nodes: 6925 - tot: 72618
+ROOT stats - zero: 0 - one: 0 - lit: 8990 - clause: 255
+ITP proof core: (root: 9210,0 + chain: 63336 (res: 4354801) - ref2: 24899) / tot:72618
+[runlim] sample:		99.1 seconds, 1571.4 MB
+ITP proof red Simpl (impl: 0): 345
+ITP proof core: (root: 9210,0 + chain: 63336 (res: 4354456) - ref2: 24899) / tot:72618
+[runlim] sample:		109.1 seconds, 1571.4 MB
+ITP proof remapped roots: 9210 - eq nodes: 0 - tot: 72546
+ROOT stats - zero: 0 - one: 0 - lit: 8954 - clause: 254
+ITP proof core: (root: 9210,0 + chain: 63336 (res: 4354456) - ref2: 24899) / tot:72546
+ITP proof dupv: 0 - implNodesOdc: 36367
+ITP proof core: (root: 9210,0 + chain: 63336 (res: 4318089) - ref2: 24899) / tot:72546
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 2467202
+interpolant stats: clause terms/a/o/ao -> 63336/0/0/63336 - A nodes: 57259 (and->or): 48
+STRUCT ODC[OR:6]: 2437479 -> 2428695
+[runlim] sample:		119.0 seconds, 1738.1 MB
+[runlim] sample:		128.8 seconds, 1952.2 MB
+[runlim] sample:		138.8 seconds, 1985.8 MB
+TOT NNF SIMPL: 2424313 -> (abcBal: 1067808) -> 1057925 (1 iterations)
+itp opt: 1057925 -> 1057925
+AIG OPT (tot aig: 1087672): |1057925| -> [runlim] sample:		148.8 seconds, 1993.9 MB
+[runlim] sample:		158.8 seconds, 1996.2 MB
+[runlim] sample:		168.8 seconds, 1996.4 MB
+TOT NNF SIMPL: 27808 -> (abcBal: 25870) -> 25751 (1 iterations)
+TOT NNF SIMPL: 28965 -> (abcBal: 27476) -> 27387 (1 iterations)
+TOT NNF SIMPL: 28681 -> (abcBal: 26116) -> 25981 (1 iterations)
+TOT NNF SIMPL: 33154 -> (abcBal: 30376) -> 30218 (1 iterations)
+[runlim] sample:		178.8 seconds, 1996.4 MB
+TOT NNF SIMPL: 24917 -> (abcBal: 22553) -> 22411 (1 iterations)
+[runlim] sample:		188.8 seconds, 1996.4 MB
+[runlim] sample:		198.8 seconds, 1996.4 MB
+TOT NNF SIMPL: 34930 -> (abcBal: 31842) -> 31668 (1 iterations)
+TOT NNF SIMPL: 63005 -> (abcBal: 57604) -> 57381 (1 iterations)
+TOT NNF SIMPL: 47919 -> (abcBal: 43188) -> 43018 (1 iterations)
+[runlim] sample:		208.8 seconds, 1996.4 MB
+[runlim] sample:		218.8 seconds, 1996.4 MB
+TOT NNF SIMPL: 62456 -> (abcBal: 58209) -> 57953 (1 iterations)
+TOT NNF SIMPL: 50502 -> (abcBal: 46148) -> 45922 (1 iterations)
+TOT NNF SIMPL: 66675 -> (abcBal: 61306) -> 61036 (1 iterations)
+[runlim] sample:		228.8 seconds, 1996.4 MB
+[runlim] sample:		238.8 seconds, 1996.4 MB
+[runlim] sample:		248.8 seconds, 1996.4 MB
+[runlim] sample:		258.8 seconds, 1996.4 MB
+[runlim] sample:		268.8 seconds, 2013.4 MB
+[runlim] sample:		278.8 seconds, 2033.6 MB
+[runlim] sample:		288.8 seconds, 2216.0 MB
+[runlim] sample:		298.8 seconds, 2400.0 MB
+[runlim] sample:		308.8 seconds, 2586.2 MB
+[runlim] sample:		318.8 seconds, 2834.2 MB
+[runlim] sample:		328.8 seconds, 3021.0 MB
+|807994| (tot aig: 840265)
+itp opt: 807994 -> 807994
+AIG OPT (tot aig: 840265): |807994| -> [runlim] sample:		338.8 seconds, 2835.1 MB
+[runlim] sample:		348.8 seconds, 2811.8 MB
+[runlim] sample:		358.8 seconds, 2811.8 MB
+[runlim] sample:		368.8 seconds, 2817.9 MB
+[runlim] sample:		378.8 seconds, 2824.0 MB
+[runlim] sample:		388.8 seconds, 2833.4 MB
+[runlim] sample:		398.8 seconds, 2839.4 MB
+[runlim] sample:		408.8 seconds, 2843.1 MB
+[runlim] sample:		418.8 seconds, 2843.8 MB
+[runlim] sample:		428.8 seconds, 2958.6 MB
+|797311| (tot aig: 829587)
+[runlim] sample:		438.8 seconds, 3175.5 MB
+Checking inductive invariant of size. 10914
+
+Check Done for init proved
+Checking inductive invariant of size. 10914
+[runlim] sample:		448.8 seconds, 3138.0 MB
+[runlim] sample:		458.8 seconds, 3138.0 MB
+[runlim] sample:		468.8 seconds, 3138.0 MB
+
+Check Done invariant proved - time: 32.62 s (norm 32.62 s)
+Checking property of size. 3884
+
+Check Done property proved - time: 1.47 s (norm 1.47 s)
+Writing invar of size 730323 to ./proc_invariants_pa/pdtfifo1to0.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Thu May 15 12:45:05 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			478.41 seconds
+[runlim] time:			476.89 seconds
+[runlim] space:			3175.5 MB
+[runlim] samples:		4783

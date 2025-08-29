@@ -1,0 +1,99 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/bobsmi2c.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/bobsmi2c.stf2.aig
+[runlim] argv[7]:		./invariants_pa/bobsmi2c.stf2.aig
+[runlim] start:			Tue May 13 20:16:07 2025
+[runlim] main pid:		1295
+certify app: -f -i ./benchmarks/stf2/bobsmi2c.stf2.aig ./invariants_pa/bobsmi2c.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=12852,|B|=12493)
+ITP time limit: -1
+[runlim] sample:		9.7 seconds, 110.6 MB
+[runlim] sample:		19.6 seconds, 125.5 MB
+[runlim] sample:		29.6 seconds, 135.6 MB
+[runlim] sample:		39.6 seconds, 143.8 MB
+[runlim] sample:		49.5 seconds, 150.3 MB
+[runlim] sample:		59.5 seconds, 156.0 MB
+[runlim] sample:		69.5 seconds, 162.1 MB
+[runlim] sample:		79.5 seconds, 167.8 MB
+[runlim] sample:		89.5 seconds, 172.5 MB
+[runlim] sample:		99.5 seconds, 176.3 MB
+[runlim] sample:		109.3 seconds, 179.7 MB
+[runlim] sample:		119.3 seconds, 185.1 MB
+Solver stats: 24813/45049 vars/clauses
+Solver stats: 1119739/223361354/192973(143803) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 116.40 s (norm 116.40 s)
+computing interpolant from refutation proof of size 257438 (AIG nodes: 27674)
+[runlim] sample:		129.3 seconds, 556.0 MB
+[runlim] sample:		139.3 seconds, 856.3 MB
+[runlim] sample:		149.3 seconds, 878.0 MB
+[runlim] sample:		159.3 seconds, 893.6 MB
+ITP proof unit res. cl,: 11565(A:4668/B:6763/AB:134 - equiv:1)
+ITP proof two res. cl: 915(AB:79)
+ITP core: (38115,2217 + 164738) / 257439
+[runlim] sample:		169.3 seconds, 1360.2 MB
+ITP proof core: (root: 38117,0 + chain: 164738 (res: 83349196) - ref2: 69001) / tot:257441
+[runlim] sample:		179.3 seconds, 1526.1 MB
+ITP proof remapped roots: 2448 - eq nodes: 23608 - tot: 143578
+ROOT stats - zero: 11172 - one: 24497 - lit: 1432 - clause: 1014
+ITP proof core: (root: 2448,0 + chain: 141130 (res: 14394501) - ref2: 62222) / tot:143578
+ITP proof remapped roots: 2448 - eq nodes: 630 - tot: 142948
+ROOT stats - zero: 0 - one: 0 - lit: 1432 - clause: 1014
+ITP proof core: (root: 2448,0 + chain: 140500 (res: 14393199) - ref2: 61943) / tot:142948
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 2448,0 + chain: 140500 (res: 14393199) - ref2: 61943) / tot:142948
+bdd merge: 1501
+ITP proof remapped roots: 2448 - eq nodes: 2470 - tot: 140478
+ROOT stats - zero: 0 - one: 0 - lit: 1432 - clause: 1014
+ITP proof core: (root: 2414,9 + chain: 137992 (res: 13897471) - ref2: 61315) / tot:140478
+[runlim] sample:		189.3 seconds, 1535.0 MB
+ITP proof red Simpl (impl: 0): 16006
+ITP proof core: (root: 2414,9 + chain: 137992 (res: 13881465) - ref2: 61315) / tot:140478
+ITP proof remapped roots: 2414 - eq nodes: 8 - tot: 140398
+ROOT stats - zero: 0 - one: 0 - lit: 1398 - clause: 1014
+ITP proof core: (root: 2414,0 + chain: 137984 (res: 13881430) - ref2: 61315) / tot:140398
+ITP proof dupv: 0 - implNodesOdc: 731279
+ITP proof core: (root: 2414,0 + chain: 137984 (res: 13150147) - ref2: 61315) / tot:140398
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+[runlim] sample:		199.3 seconds, 1730.4 MB
+[runlim] sample:		209.3 seconds, 1992.7 MB
+[runlim] sample:		219.3 seconds, 2380.7 MB
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 11178155
+interpolant stats: clause terms/a/o/ao -> 137984/0/0/137984 - A nodes: 88955 (and->or): 48
+[runlim] sample:		229.3 seconds, 2428.3 MB
+[runlim] sample:		239.3 seconds, 3112.7 MB
+[runlim] sample:		249.3 seconds, 3148.6 MB
+[runlim] sample:		259.3 seconds, 3175.5 MB
+[runlim] sample:		269.3 seconds, 3199.1 MB
+[runlim] sample:		279.3 seconds, 3220.0 MB
+[runlim] sample:		289.1 seconds, 3242.1 MB
+STRUCT ODC[AND:471]: 11149839 -> 10617345
+[runlim] sample:		299.3 seconds, 3269.9 MB
+[runlim] sample:		309.3 seconds, 3281.0 MB
+[runlim] sample:		319.3 seconds, 3294.5 MB
+[runlim] sample:		329.3 seconds, 3302.9 MB
+[runlim] sample:		339.3 seconds, 3302.9 MB
+[runlim] sample:		349.3 seconds, 3302.9 MB
+[runlim] sample:		359.3 seconds, 3302.9 MB
+[runlim] sample:		369.2 seconds, 3552.6 MB
+[runlim] end:			Tue May 13 20:22:24 2025
+[runlim] status:		out of memory
+[runlim] result:		1
+[runlim] children:		0
+[runlim] real:			377.29 seconds
+[runlim] time:			376.11 seconds
+[runlim] space:			4112.4 MB
+[runlim] samples:		3770

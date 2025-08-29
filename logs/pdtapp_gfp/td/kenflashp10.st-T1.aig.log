@@ -1,0 +1,34 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/st/kenflashp10.st.aig
+[runlim] argv[3]:		./proc_invariants_td/kenflashp10.st-T1.aig
+[runlim] argv[4]:		./gfp_invariants_td/kenflashp10.st-T1.aig
+[runlim] start:			Mon May 19 23:35:43 2025
+[runlim] main pid:		440
+gfp app: ../pdtinv25/benchmarks/st/kenflashp10.st.aig ./proc_invariants_td/kenflashp10.st-T1.aig ./gfp_invariants_td/kenflashp10.st-T1.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 122
+
+GFP iteration [0] - reached size: 122
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Mon May 19 23:35:44 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.50 seconds
+[runlim] time:			0.14 seconds
+[runlim] space:			82.1 MB
+[runlim] samples:		8

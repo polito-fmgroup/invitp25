@@ -1,0 +1,91 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/eijks444.stf2.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/stf2/eijks444.stf2.aig
+[runlim] argv[7]:		../pdtinv25/invariants_pa/eijks444.stf2.aig
+[runlim] start:			Thu May 15 12:34:16 2025
+[runlim] main pid:		609
+certify app: -f -i ../pdtinv25/benchmarks/stf2/eijks444.stf2.aig ../pdtinv25/invariants_pa/eijks444.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=4126,|B|=4027)
+ITP time limit: -1
+Solver stats: 8071/13261 vars/clauses
+Solver stats: 108582/8109486/9972(8333) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 1.42 s (norm 1.42 s)
+computing interpolant from refutation proof of size 29083 (AIG nodes: 8598)
+ITP proof unit res. cl,: 3884(A:1521/B:2336/AB:27 - equiv:1)
+ITP proof two res. cl: 199(AB:11)
+ITP core: (10820,798 + 12285) / 29084
+ITP proof core: (root: 10822,0 + chain: 12285 (res: 2701022) - ref2: 5586) / tot:29086
+ITP proof remapped roots: 524 - eq nodes: 4863 - tot: 7946
+ROOT stats - zero: 2810 - one: 7488 - lit: 374 - clause: 148
+ITP proof core: (root: 524,0 + chain: 7422 (res: 216432) - ref2: 3564) / tot:7946
+ITP proof remapped roots: 524 - eq nodes: 54 - tot: 7892
+ROOT stats - zero: 0 - one: 0 - lit: 374 - clause: 148
+ITP proof core: (root: 524,0 + chain: 7368 (res: 216356) - ref2: 3531) / tot:7892
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 524,0 + chain: 7368 (res: 216356) - ref2: 3531) / tot:7892
+bdd merge: 666
+ITP proof remapped roots: 524 - eq nodes: 712 - tot: 7180
+ROOT stats - zero: 0 - one: 0 - lit: 374 - clause: 148
+ITP proof core: (root: 518,0 + chain: 6645 (res: 209337) - ref2: 3416) / tot:7180
+ITP proof red Simpl (impl: 0): 573
+ITP proof core: (root: 518,0 + chain: 6645 (res: 208764) - ref2: 3416) / tot:7180
+ITP proof remapped roots: 518 - eq nodes: 0 - tot: 7163
+ROOT stats - zero: 0 - one: 0 - lit: 368 - clause: 148
+ITP proof core: (root: 518,0 + chain: 6645 (res: 208758) - ref2: 3416) / tot:7163
+ITP proof dupv: 0 - implNodesOdc: 33197
+ITP proof core: (root: 518,0 + chain: 6645 (res: 175561) - ref2: 3416) / tot:7163
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 157674
+interpolant stats: clause terms/a/o/ao -> 6645/0/0/6645 - A nodes: 6645 (and->or): 0
+STRUCT ODC[AND:84]: 149060 -> 148317
+TOT NNF SIMPL: 148214 -> (abcBal: 95546) -> 94827 (1 iterations)
+itp opt: 94827 -> 94827
+AIG OPT (tot aig: 103278): |94827| -> [runlim] sample:		9.4 seconds, 305.5 MB
+TOT NNF SIMPL: 70680 -> (abcBal: 70339) -> 70320 (1 iterations)
+TOT NNF SIMPL: 14574 -> (abcBal: 14436) -> 14424 (1 iterations)
+[runlim] sample:		19.4 seconds, 479.4 MB
+TOT NNF SIMPL: 68887 -> (abcBal: 68670) -> 68662 (1 iterations)
+TOT NNF SIMPL: 14319 -> (abcBal: 14216) -> 14210 (1 iterations)
+|80459| (tot aig: 89768)
+itp opt: 80459 -> 80459
+AIG OPT (tot aig: 89768): |80459| -> [runlim] sample:		29.4 seconds, 482.7 MB
+TOT NNF SIMPL: 68355 -> (abcBal: 68147) -> 68135 (1 iterations)
+TOT NNF SIMPL: 14204 -> (abcBal: 14114) -> 14111 (1 iterations)
+|79826| (tot aig: 89138)
+Checking inductive invariant of size. 3422
+
+Check Done for init proved
+Checking inductive invariant of size. 3422
+
+Check Done invariant proved - time: 1.11 s (norm 1.11 s)
+Checking property of size. 663
+
+Check Done property proved - time: 0.04 s (norm 0.04 s)
+Writing invar of size 75271 to ./proc_invariants_pa/eijks444.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] sample:		39.3 seconds, 429.3 MB
+[runlim] end:			Thu May 15 12:34:56 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			40.99 seconds
+[runlim] time:			39.33 seconds
+[runlim] space:			483.5 MB
+[runlim] samples:		400

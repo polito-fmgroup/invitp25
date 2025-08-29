@@ -1,0 +1,34 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/6s281b35.stf2.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/stf2/6s281b35.stf2.aig
+[runlim] argv[7]:		../pdtinv25/invariants_pa/6s281b35.stf2.aig
+[runlim] start:			Thu May 15 12:30:39 2025
+[runlim] main pid:		599
+certify app: -f -i ../pdtinv25/benchmarks/stf2/6s281b35.stf2.aig ../pdtinv25/invariants_pa/6s281b35.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+[runlim] sample:		7.5 seconds, 2005.2 MB
+[runlim] sample:		9.4 seconds, 2044.8 MB
+[runlim] sample:		10.2 seconds, 2044.8 MB
+[runlim] sample:		10.9 seconds, 2044.8 MB
+[runlim] sample:		11.3 seconds, 2044.8 MB
+[runlim] sample:		11.5 seconds, 2044.8 MB
+[runlim] sample:		12.2 seconds, 2044.8 MB
+[runlim] end:			Thu May 15 12:31:54 2025
+[runlim] status:		segmentation fault
+[runlim] result:		139
+[runlim] children:		0
+[runlim] real:			75.84 seconds
+[runlim] time:			12.51 seconds
+[runlim] space:			2097.1 MB
+[runlim] samples:		749

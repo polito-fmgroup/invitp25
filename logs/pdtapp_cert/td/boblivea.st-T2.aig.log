@@ -1,0 +1,36 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		./benchmarks/st/boblivea.st.aig
+[runlim] argv[3]:		./proc_invariants_td/boblivea.st-T2.aig
+[runlim] start:			Tue May 13 22:44:01 2025
+[runlim] main pid:		820
+certify app: ./benchmarks/st/boblivea.st.aig ./proc_invariants_td/boblivea.st-T2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 2674
+
+Check Done for init proved
+Checking inductive invariant of size. 2674
+
+Check Done invariant disproved - time: 0.00 s (norm 0.00 s)
+Checking property of size. 392
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 22:44:01 2025
+[runlim] status:		ok
+[runlim] result:		1
+[runlim] children:		0
+[runlim] real:			0.98 seconds
+[runlim] time:			0.02 seconds
+[runlim] space:			77.0 MB
+[runlim] samples:		3

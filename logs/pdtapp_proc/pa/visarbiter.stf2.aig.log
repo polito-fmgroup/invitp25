@@ -1,0 +1,78 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/visarbiter.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/visarbiter.stf2.aig
+[runlim] argv[7]:		./invariants_pa/visarbiter.stf2.aig
+[runlim] start:			Tue May 13 21:01:49 2025
+[runlim] main pid:		1407
+certify app: -f -i ./benchmarks/stf2/visarbiter.stf2.aig ./invariants_pa/visarbiter.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=1023,|B|=735)
+ITP time limit: -1
+Solver stats: 1731/3637 vars/clauses
+Solver stats: 1036/88688/393(367) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.02 s (norm 0.02 s)
+computing interpolant from refutation proof of size 5923 (AIG nodes: 2287)
+ITP proof unit res. cl,: 375(A:246/B:113/AB:16 - equiv:1)
+ITP proof two res. cl: 29(AB:2)
+ITP core: (2575,359 + 717) / 5924
+ITP proof core: (root: 2577,0 + chain: 717 (res: 20900) - ref2: 331) / tot:5926
+ITP proof remapped roots: 69 - eq nodes: 435 - tot: 351
+ROOT stats - zero: 1337 - one: 1171 - lit: 65 - clause: 2
+ITP proof core: (root: 69,0 + chain: 282 (res: 1765) - ref2: 159) / tot:351
+ITP proof remapped roots: 69 - eq nodes: 14 - tot: 337
+ROOT stats - zero: 0 - one: 0 - lit: 65 - clause: 2
+ITP proof core: (root: 69,0 + chain: 268 (res: 1742) - ref2: 150) / tot:337
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 69,0 + chain: 268 (res: 1742) - ref2: 150) / tot:337
+bdd merge: 20
+ITP proof remapped roots: 69 - eq nodes: 38 - tot: 299
+ROOT stats - zero: 0 - one: 0 - lit: 65 - clause: 2
+ITP proof core: (root: 62,0 + chain: 230 (res: 1551) - ref2: 140) / tot:299
+ITP proof red Simpl (impl: 0): 122
+ITP proof core: (root: 62,0 + chain: 230 (res: 1429) - ref2: 140) / tot:299
+ITP proof remapped roots: 62 - eq nodes: 0 - tot: 292
+ROOT stats - zero: 0 - one: 0 - lit: 58 - clause: 2
+ITP proof core: (root: 62,0 + chain: 230 (res: 1426) - ref2: 140) / tot:292
+ITP proof dupv: 0 - implNodesOdc: 153
+ITP proof core: (root: 62,0 + chain: 230 (res: 1273) - ref2: 140) / tot:292
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 3341
+interpolant stats: clause terms/a/o/ao -> 230/0/0/230 - A nodes: 230 (and->or): 48
+STRUCT ODC[AND:7]: 1088 -> 1023
+TOT NNF SIMPL: 1002 -> (abcBal: 743) -> 736 (1 iterations)
+itp opt: 736 -> 736
+Checking inductive invariant of size. 114
+
+Check Done for init proved
+Checking inductive invariant of size. 114
+
+Check Done invariant proved - time: 0.03 s (norm 0.03 s)
+Checking property of size. 294
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar to ./proc_invariants_pa/visarbiter.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 21:01:50 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.53 seconds
+[runlim] time:			0.30 seconds
+[runlim] space:			81.2 MB
+[runlim] samples:		8

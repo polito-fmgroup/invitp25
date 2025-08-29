@@ -1,0 +1,28 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/6s281b35.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/6s281b35.stf2.aig
+[runlim] start:			Thu May 15 12:47:26 2025
+[runlim] main pid:		634
+certify app: ../pdtinv25/benchmarks/stf2/6s281b35.stf2.aig ./proc_invariants_pa/6s281b35.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+[runlim] sample:		7.4 seconds, 2099.8 MB
+-- TRAV Manager Init.
+Error Loading AIGER file ./proc_invariants_pa/6s281b35.stf2.aig - error can not read './proc_invariants_pa/6s281b35.stf2.aig'.
+[runlim] sample:		8.6 seconds, 2004.0 MB
+[runlim] sample:		9.7 seconds, 2004.0 MB
+[runlim] sample:		11.0 seconds, 2004.0 MB
+[runlim] end:			Thu May 15 12:48:15 2025
+[runlim] status:		segmentation fault
+[runlim] result:		139
+[runlim] children:		0
+[runlim] real:			49.47 seconds
+[runlim] time:			12.16 seconds
+[runlim] space:			2099.8 MB
+[runlim] samples:		494

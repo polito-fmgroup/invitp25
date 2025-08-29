@@ -1,0 +1,78 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/neclabakery001.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/neclabakery001.stf2.aig
+[runlim] argv[7]:		./invariants_pa/neclabakery001.stf2.aig
+[runlim] start:			Tue May 13 20:45:39 2025
+[runlim] main pid:		1351
+certify app: -f -i ./benchmarks/stf2/neclabakery001.stf2.aig ./invariants_pa/neclabakery001.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=3690,|B|=3163)
+ITP time limit: -1
+Solver stats: 6762/9762 vars/clauses
+Solver stats: 9388/2153044/2737(2379) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.29 s (norm 0.29 s)
+computing interpolant from refutation proof of size 20620 (AIG nodes: 7438)
+ITP proof unit res. cl,: 2185(A:597/B:1577/AB:11 - equiv:1)
+ITP proof two res. cl: 73(AB:4)
+ITP core: (7841,1146 + 4687) / 20621
+ITP proof core: (root: 7843,0 + chain: 4687 (res: 452715) - ref2: 2520) / tot:20623
+ITP proof remapped roots: 276 - eq nodes: 2449 - tot: 2514
+ROOT stats - zero: 2313 - one: 5254 - lit: 261 - clause: 13
+ITP proof core: (root: 276,0 + chain: 2238 (res: 21259) - ref2: 1255) / tot:2514
+ITP proof remapped roots: 276 - eq nodes: 126 - tot: 2388
+ROOT stats - zero: 0 - one: 0 - lit: 261 - clause: 13
+ITP proof core: (root: 276,0 + chain: 2112 (res: 20791) - ref2: 1201) / tot:2388
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 276,0 + chain: 2112 (res: 20791) - ref2: 1201) / tot:2388
+bdd merge: 298
+ITP proof remapped roots: 276 - eq nodes: 400 - tot: 1988
+ROOT stats - zero: 0 - one: 0 - lit: 261 - clause: 13
+ITP proof core: (root: 211,0 + chain: 1706 (res: 17609) - ref2: 1079) / tot:1988
+ITP proof red Simpl (impl: 0): 566
+ITP proof core: (root: 211,0 + chain: 1706 (res: 17043) - ref2: 1079) / tot:1988
+ITP proof remapped roots: 211 - eq nodes: 0 - tot: 1917
+ROOT stats - zero: 0 - one: 0 - lit: 199 - clause: 10
+ITP proof core: (root: 211,0 + chain: 1706 (res: 17043) - ref2: 1079) / tot:1917
+ITP proof dupv: 0 - implNodesOdc: 3168
+ITP proof core: (root: 211,0 + chain: 1706 (res: 13875) - ref2: 1079) / tot:1917
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 19341
+interpolant stats: clause terms/a/o/ao -> 1706/0/0/1706 - A nodes: 1706 (and->or): 48
+STRUCT ODC[AND:21]: 11888 -> 11485
+TOT NNF SIMPL: 11376 -> (abcBal: 7805) -> 7704 (1 iterations)
+itp opt: 7704 -> 7704
+Checking inductive invariant of size. 1884
+
+Check Done for init proved
+Checking inductive invariant of size. 1884
+
+Check Done invariant proved - time: 0.15 s (norm 0.15 s)
+Checking property of size. 1226
+
+Check Done property proved - time: 0.01 s (norm 0.01 s)
+Writing invar to ./proc_invariants_pa/neclabakery001.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 20:45:41 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			2.26 seconds
+[runlim] time:			1.08 seconds
+[runlim] space:			97.7 MB
+[runlim] samples:		16

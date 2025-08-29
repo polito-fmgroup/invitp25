@@ -1,0 +1,78 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/pj2016.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/pj2016.stf2.aig
+[runlim] argv[7]:		./invariants_pa/pj2016.stf2.aig
+[runlim] start:			Tue May 13 21:01:40 2025
+[runlim] main pid:		1397
+certify app: -f -i ./benchmarks/stf2/pj2016.stf2.aig ./invariants_pa/pj2016.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=74614,|B|=68954)
+ITP time limit: -1
+Solver stats: 142623/391478 vars/clauses
+Solver stats: 10676/5994713/1268(1183) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.78 s (norm 0.78 s)
+computing interpolant from refutation proof of size 409028 (AIG nodes: 166445)
+ITP proof unit res. cl,: 1437(A:603/B:829/AB:5 - equiv:1)
+ITP proof two res. cl: 82(AB:9)
+ITP core: (17756,13031 + 2273) / 409029
+ITP proof core: (root: 17758,0 + chain: 2273 (res: 306496) - ref2: 1292) / tot:409031
+ITP proof remapped roots: 672 - eq nodes: 1654 - tot: 1291
+ROOT stats - zero: 7883 - one: 9203 - lit: 604 - clause: 66
+ITP proof core: (root: 672,0 + chain: 619 (res: 12703) - ref2: 345) / tot:1291
+ITP proof remapped roots: 672 - eq nodes: 28 - tot: 1263
+ROOT stats - zero: 0 - one: 0 - lit: 604 - clause: 66
+ITP proof core: (root: 672,0 + chain: 591 (res: 12615) - ref2: 330) / tot:1263
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 672,0 + chain: 591 (res: 12615) - ref2: 330) / tot:1263
+bdd merge: 16
+ITP proof remapped roots: 672 - eq nodes: 19 - tot: 1244
+ROOT stats - zero: 0 - one: 0 - lit: 604 - clause: 66
+ITP proof core: (root: 670,0 + chain: 572 (res: 12545) - ref2: 323) / tot:1244
+ITP proof red Simpl (impl: 0): 570
+ITP proof core: (root: 670,0 + chain: 572 (res: 11975) - ref2: 323) / tot:1244
+ITP proof remapped roots: 670 - eq nodes: 0 - tot: 1242
+ROOT stats - zero: 0 - one: 0 - lit: 602 - clause: 66
+ITP proof core: (root: 670,0 + chain: 572 (res: 11975) - ref2: 323) / tot:1242
+ITP proof dupv: 0 - implNodesOdc: 2378
+ITP proof core: (root: 670,0 + chain: 572 (res: 9597) - ref2: 323) / tot:1242
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 171620
+interpolant stats: clause terms/a/o/ao -> 572/0/0/572 - A nodes: 572 (and->or): 48
+STRUCT ODC[AND:8]: 5303 -> 4367
+TOT NNF SIMPL: 4208 -> (abcBal: 3204) -> 3187 (1 iterations)
+itp opt: 3187 -> 3187
+Checking inductive invariant of size. 356
+
+Check Done for init proved
+Checking inductive invariant of size. 356
+
+Check Done invariant proved - time: 0.76 s (norm 0.76 s)
+Checking property of size. 68643
+
+Check Done property proved - time: 0.20 s (norm 0.20 s)
+Writing invar to ./proc_invariants_pa/pj2016.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 21:01:46 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			6.18 seconds
+[runlim] time:			4.61 seconds
+[runlim] space:			207.4 MB
+[runlim] samples:		52

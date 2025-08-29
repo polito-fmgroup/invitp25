@@ -1,0 +1,41 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		1
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_td/pdtvishuffman1.st-T1.aig
+[runlim] argv[6]:		./benchmarks/st/pdtvishuffman1.st.aig
+[runlim] argv[7]:		./invariants_td/pdtvishuffman1.st-T1.aig
+[runlim] start:			Tue May 13 21:49:49 2025
+[runlim] main pid:		581
+certify app: -t -i ./benchmarks/st/pdtvishuffman1.st.aig ./invariants_td/pdtvishuffman1.st-T1.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 0
+
+Check Done for init disproved
+Checking inductive invariant of size. 0
+
+Check Done invariant proved - time: 0.00 s (norm 0.00 s)
+Checking property of size. 0
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar to ./proc_invariants_td/pdtvishuffman1.st-T1.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 21:49:49 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.85 seconds
+[runlim] time:			0.01 seconds
+[runlim] space:			73.7 MB
+[runlim] samples:		2

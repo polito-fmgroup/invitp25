@@ -1,0 +1,56 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/pdtswvtma6x4p1.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/pdtswvtma6x4p1.stf2.aig
+[runlim] argv[7]:		./invariants_pa/pdtswvtma6x4p1.stf2.aig
+[runlim] start:			Tue May 13 21:01:16 2025
+[runlim] main pid:		1379
+certify app: -f -i ./benchmarks/stf2/pdtswvtma6x4p1.stf2.aig
+bdd merge: 649
+ITP proof remapped roots: 100 - eq nodes: 685 - tot: 2180
+ROOT stats - zero: 0 - one: 0 - lit: 98 - clause: 0
+ITP proof core: (root: 78,1 + chain: 1964 (res: 40234) - ref2: 1183) / tot:2180
+ITP proof red Simpl (impl: 0): 6410
+ITP proof core: (root: 78,1 + chain: 1964 (res: 33824) - ref2: 1183) / tot:2180
+[runlim] sample:		9.3 seconds, 115.9 MB
+ITP proof remapped roots: 78 - eq nodes: 0 - tot: 2042
+ROOT stats - zero: 0 - one: 0 - lit: 76 - clause: 0
+ITP proof core: (root: 78,0 + chain: 1964 (res: 33797) - ref2: 1183) / tot:2042
+ITP proof dupv: 0 - implNodesOdc: 15824
+ITP proof core: (root: 78,0 + chain: 1963 (res: 17957) - ref2: 1182) / tot:2042
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 31824
+interpolant stats: clause terms/a/o/ao -> 1963/0/0/1963 - A nodes: 1052 (and->or): 48
+STRUCT ODC[AND:10]: 16489 -> 15640
+TOT NNF SIMPL: 14339 -> (abcBal: 10927) -> 10875 (1 iterations)
+itp opt: 10875 -> 10875
+Checking inductive invariant of size. 2026
+
+Check Done for init proved
+Checking inductive invariant of size. 2026
+
+Check Done invariant proved - time: 0.75 s (norm 0.75 s)
+Checking property of size. 1170
+
+Check Done property proved - time: 0.01 s (norm 0.01 s)
+Writing invar to ./proc_invariants_pa/pdtswvtma6x4p1.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 21:01:28 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			12.08 seconds
+[runlim] time:			11.13 seconds
+[runlim] space:			125.9 MB
+[runlim] samples:		120

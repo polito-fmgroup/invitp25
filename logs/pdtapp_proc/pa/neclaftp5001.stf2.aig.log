@@ -1,0 +1,77 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/neclaftp5001.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/neclaftp5001.stf2.aig
+[runlim] argv[7]:		./invariants_pa/neclaftp5001.stf2.aig
+[runlim] start:			Tue May 13 20:45:41 2025
+[runlim] main pid:		1353
+certify app: -f -i ./benchmarks/stf2/neclaftp5001.stf2.aig ./invariants_pa/neclaftp5001.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=182,|B|=97)
+ITP time limit: -1
+Solver stats: 259/483 vars/clauses
+Solver stats: 30/981/13(12) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.00 s (norm 0.00 s)
+computing interpolant from refutation proof of size 648 (AIG nodes: 11631)
+ITP proof unit res. cl,: 29(A:8/B:21/AB:0 - equiv:1)
+ITP proof two res. cl: 1(AB:1)
+ITP core: (195,87 + 37) / 649
+ITP proof core: (root: 197,0 + chain: 37 (res: 502) - ref2: 24) / tot:651
+ITP proof remapped roots: 32 - eq nodes: 22 - tot: 47
+ROOT stats - zero: 99 - one: 66 - lit: 28 - clause: 2
+ITP proof core: (root: 32,0 + chain: 15 (res: 60) - ref2: 11) / tot:47
+ITP proof remapped roots: 32 - eq nodes: 6 - tot: 41
+ROOT stats - zero: 0 - one: 0 - lit: 28 - clause: 2
+ITP proof core: (root: 32,0 + chain: 9 (res: 54) - ref2: 7) / tot:41
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 32,0 + chain: 9 (res: 54) - ref2: 7) / tot:41
+ITP proof remapped roots: 32 - eq nodes: 2 - tot: 39
+ROOT stats - zero: 0 - one: 0 - lit: 28 - clause: 2
+ITP proof core: (root: 31,0 + chain: 7 (res: 44) - ref2: 6) / tot:39
+ITP proof red Simpl (impl: 0): 0
+ITP proof core: (root: 31,0 + chain: 7 (res: 44) - ref2: 6) / tot:39
+ITP proof remapped roots: 31 - eq nodes: 0 - tot: 38
+ROOT stats - zero: 0 - one: 0 - lit: 27 - clause: 2
+ITP proof core: (root: 31,0 + chain: 7 (res: 44) - ref2: 6) / tot:38
+ITP proof dupv: 0 - implNodesOdc: 0
+ITP proof core: (root: 31,0 + chain: 7 (res: 44) - ref2: 6) / tot:38
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+interpolant OPT: 0 (0,0)
+interpolant AUXV: 0 - AIG nodes 11662
+interpolant stats: clause terms/a/o/ao -> 7/0/0/7 - A nodes: 7 (and->or): 48
+STRUCT ODC[OR:3]: 41 -> 39
+TOT NNF SIMPL: 29 -> (abcBal: 26) -> 26 (1 iterations)
+itp opt: 26 -> 26
+Checking inductive invariant of size. 3
+
+Check Done for init proved
+Checking inductive invariant of size. 3
+
+Check Done invariant proved - time: 0.00 s (norm 0.00 s)
+Checking property of size. 108
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar to ./proc_invariants_pa/neclaftp5001.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 20:45:41 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.96 seconds
+[runlim] time:			0.14 seconds
+[runlim] space:			98.9 MB
+[runlim] samples:		6

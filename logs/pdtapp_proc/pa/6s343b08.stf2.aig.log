@@ -1,0 +1,60 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/6s343b08.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/6s343b08.stf2.aig
+[runlim] argv[7]:		./invariants_pa/6s343b08.stf2.aig
+[runlim] start:			Tue May 13 19:39:32 2025
+[runlim] main pid:		1241
+certify app: -f -i ./benchmarks/stf2/6s343b08.stf2.aig ./invariants_pa/6s343b08.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=147453,|B|=90487)
+ITP time limit: -1
+Solver stats: 233079/512276 vars/clauses
+Solver stats: 294427/4532642/195(195) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.94 s (norm 0.94 s)
+Checking inductive invariant of size. 37706
+
+Check Done for init proved
+Checking inductive invariant of size. 37706
+[runlim] sample:		8.1 seconds, 255.4 MB
+[runlim] sample:		18.1 seconds, 255.4 MB
+[runlim] sample:		28.1 seconds, 255.4 MB
+[runlim] sample:		38.1 seconds, 255.4 MB
+[runlim] sample:		48.1 seconds, 255.4 MB
+[runlim] sample:		58.1 seconds, 255.4 MB
+[runlim] sample:		68.1 seconds, 255.4 MB
+[runlim] sample:		78.1 seconds, 255.4 MB
+[runlim] sample:		88.1 seconds, 259.0 MB
+[runlim] sample:		98.1 seconds, 263.6 MB
+[runlim] sample:		108.1 seconds, 267.0 MB
+[runlim] sample:		118.1 seconds, 270.8 MB
+[runlim] sample:		128.1 seconds, 275.0 MB
+[runlim] sample:		138.1 seconds, 277.3 MB
+
+Check Done invariant proved - time: 139.47 s (norm 139.47 s)
+Checking property of size. 21840
+
+Check Done property disproved - time: 0.13 s (norm 0.13 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 19:41:56 2025
+[runlim] status:		ok
+[runlim] result:		1
+[runlim] children:		0
+[runlim] real:			144.78 seconds
+[runlim] time:			142.13 seconds
+[runlim] space:			277.3 MB
+[runlim] samples:		1440

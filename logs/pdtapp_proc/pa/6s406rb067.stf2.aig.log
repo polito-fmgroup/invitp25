@@ -1,0 +1,46 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/6s406rb067.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/6s406rb067.stf2.aig
+[runlim] argv[7]:		./invariants_pa/6s406rb067.stf2.aig
+[runlim] start:			Tue May 13 19:43:38 2025
+[runlim] main pid:		1265
+certify app: -f -i ./benchmarks/stf2/6s406rb067.stf2.aig ./invariants_pa/6s406rb067.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+ITP (|A|=300206,|B|=5409)
+ITP time limit: -1
+Solver stats: 300238/692186 vars/clauses
+Solver stats: 83406/1995772/176(173) dec./prop./confl.(small)
+Solver stored decisions: 0
+Solver stats: time = 0.30 s (norm 0.30 s)
+Checking inductive invariant of size. 1
+
+Check Done for init proved
+Checking inductive invariant of size. 1
+
+Check Done invariant proved - time: 0.00 s (norm 0.00 s)
+Checking property of size. 19109
+
+Check Done property disproved - time: 0.05 s (norm 0.05 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Tue May 13 19:43:40 2025
+[runlim] status:		ok
+[runlim] result:		1
+[runlim] children:		0
+[runlim] real:			2.49 seconds
+[runlim] time:			1.87 seconds
+[runlim] space:			352.7 MB
+[runlim] samples:		23

@@ -1,0 +1,17 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-i
+[runlim] argv[5]:		./proc_invariants_pa/pdtpmss1269b.stf2.aig
+[runlim] argv[6]:		./benchmarks/stf2/pdtpmss1269b.stf2.aig
+[runlim] argv[7]:		./invariants_pa/pdtpmss1269b.stf2.aig
+[runlim] start:			Tue May 13 21:01:13 2025
+[runlim] main pid:		1375
+certify app: -f -i ./benchmarks/stf2/pdtpmss1269b.stf2.aig
+bdd merge: 12
+ok

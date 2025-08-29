@@ -1,0 +1,40 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	900 seconds
+[runlim] space limit:		4096 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/eijks444.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/eijks444.stf2.aig
+[runlim] start:			Thu May 15 12:51:43 2025
+[runlim] main pid:		644
+certify app: ../pdtinv25/benchmarks/stf2/eijks444.stf2.aig ./proc_invariants_pa/eijks444.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 75271
+
+Check Done for init proved
+Checking inductive invariant of size. 75271
+[runlim] sample:		9.7 seconds, 186.4 MB
+[runlim] sample:		19.7 seconds, 186.4 MB
+[runlim] sample:		29.7 seconds, 186.4 MB
+[runlim] sample:		39.7 seconds, 186.4 MB
+
+Check Done invariant proved - time: 46.16 s (norm 46.16 s)
+Checking property of size. 177
+
+Check Done property proved - time: 0.32 s (norm 0.32 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Thu May 15 12:52:30 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			47.72 seconds
+[runlim] time:			46.90 seconds
+[runlim] space:			186.4 MB
+[runlim] samples:		472
