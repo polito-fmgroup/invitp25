@@ -1,0 +1,129 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	7200 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-f
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_pa/6s269r.stf2.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/stf2/6s269r.stf2.aig
+[runlim] argv[7]:		./invariants_pa/6s269r.stf2.aig
+[runlim] start:			Mon Dec 22 05:32:28 2025
+[runlim] main pid:		27422
+certify app: -f -w ../pdtinv25/benchmarks/stf2/6s269r.stf2.aig ./invariants_pa/6s269r.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|itpGEN:66263,67191(0)|.
+[runlim] sample:		10.0 seconds, 196.2 MB
+[runlim] sample:		20.0 seconds, 196.2 MB
+[runlim] sample:		30.0 seconds, 196.2 MB
+[runlim] sample:		40.0 seconds, 196.2 MB
+[runlim] sample:		50.0 seconds, 196.2 MB
+[runlim] sample:		60.0 seconds, 196.2 MB
+[runlim] sample:		70.0 seconds, 196.2 MB
+|itpGEN:4541| - nGen:1000(partial) (avg-#lits:  5.8).
+itpGEN time: 74.04 s (norm 74.04 s)
+ ITP (|A|=67191,|B|=70673)
+ITP time limit: -1
+[runlim] sample:		80.0 seconds, 312.5 MB
+[runlim] sample:		90.0 seconds, 573.2 MB
+[runlim] sample:		100.0 seconds, 832.9 MB
+[runlim] sample:		110.0 seconds, 1087.3 MB
+[runlim] sample:		120.0 seconds, 1296.8 MB
+[runlim] sample:		129.9 seconds, 1547.8 MB
+[runlim] sample:		139.9 seconds, 1745.2 MB
+[runlim] sample:		149.9 seconds, 1942.2 MB
+[runlim] sample:		159.9 seconds, 2168.8 MB
+[runlim] sample:		169.9 seconds, 2359.2 MB
+[runlim] sample:		179.9 seconds, 2551.4 MB
+[runlim] sample:		189.9 seconds, 2744.3 MB
+[runlim] sample:		199.9 seconds, 2938.4 MB
+[runlim] sample:		209.9 seconds, 3123.3 MB
+[runlim] sample:		219.9 seconds, 3300.4 MB
+[runlim] sample:		229.9 seconds, 3492.9 MB
+[runlim] sample:		239.9 seconds, 3698.8 MB
+[runlim] sample:		249.9 seconds, 3867.8 MB
+[runlim] sample:		259.9 seconds, 4022.3 MB
+[runlim] sample:		269.9 seconds, 4179.2 MB
+[runlim] sample:		279.9 seconds, 4329.2 MB
+[runlim] sample:		289.9 seconds, 4493.5 MB
+[runlim] sample:		299.9 seconds, 4694.4 MB
+[runlim] sample:		309.9 seconds, 4892.8 MB
+[runlim] sample:		319.9 seconds, 5074.0 MB
+[runlim] sample:		329.9 seconds, 5245.4 MB
+[runlim] sample:		339.9 seconds, 5421.9 MB
+[runlim] sample:		349.9 seconds, 5601.0 MB
+[runlim] sample:		359.9 seconds, 5771.3 MB
+[runlim] sample:		369.9 seconds, 5943.9 MB
+[runlim] sample:		379.9 seconds, 6146.7 MB
+[runlim] sample:		389.9 seconds, 6293.5 MB
+[runlim] sample:		399.9 seconds, 6471.9 MB
+[runlim] sample:		409.9 seconds, 6682.2 MB
+[runlim] sample:		419.9 seconds, 6823.2 MB
+[runlim] sample:		429.9 seconds, 6959.7 MB
+[runlim] sample:		439.9 seconds, 7102.0 MB
+[runlim] sample:		449.9 seconds, 7258.9 MB
+[runlim] sample:		459.9 seconds, 7433.3 MB
+[runlim] sample:		469.8 seconds, 7605.0 MB
+[runlim] sample:		479.8 seconds, 7778.9 MB
+[runlim] sample:		489.8 seconds, 7921.9 MB
+[runlim] sample:		499.8 seconds, 8066.0 MB
+[runlim] sample:		509.8 seconds, 8222.9 MB
+[runlim] sample:		519.8 seconds, 8373.7 MB
+[runlim] sample:		529.8 seconds, 8497.8 MB
+[runlim] sample:		539.8 seconds, 8627.3 MB
+[runlim] sample:		549.8 seconds, 8766.0 MB
+[runlim] sample:		559.8 seconds, 8932.0 MB
+[runlim] sample:		569.8 seconds, 9116.7 MB
+[runlim] sample:		579.8 seconds, 9257.8 MB
+[runlim] sample:		589.8 seconds, 9385.4 MB
+[runlim] sample:		599.8 seconds, 9527.7 MB
+[runlim] sample:		609.8 seconds, 9680.7 MB
+[runlim] sample:		619.8 seconds, 9814.4 MB
+[runlim] sample:		629.8 seconds, 9979.7 MB
+[runlim] sample:		639.8 seconds, 10173.5 MB
+[runlim] sample:		649.8 seconds, 10336.0 MB
+[runlim] sample:		659.8 seconds, 10499.2 MB
+[runlim] sample:		669.8 seconds, 10695.2 MB
+[runlim] sample:		679.8 seconds, 10874.2 MB
+[runlim] sample:		689.8 seconds, 11017.7 MB
+[runlim] sample:		699.8 seconds, 11178.3 MB
+[runlim] sample:		709.8 seconds, 11331.9 MB
+[runlim] sample:		719.8 seconds, 11506.4 MB
+[runlim] sample:		729.8 seconds, 11670.4 MB
+[runlim] sample:		739.8 seconds, 11845.8 MB
+[runlim] sample:		749.8 seconds, 12202.2 MB
+[runlim] sample:		759.8 seconds, 12453.9 MB
+[runlim] sample:		769.7 seconds, 12717.0 MB
+[runlim] sample:		779.8 seconds, 12952.7 MB
+[runlim] sample:		789.7 seconds, 13189.7 MB
+[runlim] sample:		799.7 seconds, 13402.9 MB
+[runlim] sample:		809.7 seconds, 13618.5 MB
+[runlim] sample:		819.7 seconds, 13824.4 MB
+[runlim] sample:		829.7 seconds, 14025.2 MB
+[runlim] sample:		839.7 seconds, 14226.5 MB
+[runlim] sample:		849.7 seconds, 14434.4 MB
+[runlim] sample:		859.7 seconds, 14681.8 MB
+[runlim] sample:		869.7 seconds, 14860.7 MB
+[runlim] sample:		879.7 seconds, 15022.9 MB
+[runlim] sample:		889.7 seconds, 15190.8 MB
+[runlim] sample:		899.7 seconds, 15366.7 MB
+[runlim] sample:		909.7 seconds, 15528.3 MB
+[runlim] sample:		919.7 seconds, 15715.2 MB
+[runlim] sample:		929.7 seconds, 15892.3 MB
+[runlim] sample:		939.7 seconds, 16058.2 MB
+[runlim] sample:		949.7 seconds, 16215.3 MB
+[runlim] sample:		959.7 seconds, 16412.2 MB
+terminate called after throwing an instance of 'Minisat::OutOfMemoryException'
+[runlim] end:			Mon Dec 22 05:48:38 2025
+[runlim] status:		signal(6)
+[runlim] result:		134
+[runlim] children:		0
+[runlim] real:			970.82 seconds
+[runlim] time:			969.48 seconds
+[runlim] space:			16571.7 MB
+[runlim] samples:		9699

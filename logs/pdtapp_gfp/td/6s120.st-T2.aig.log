@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/st/6s120.st.aig
 [runlim] argv[3]:		./proc_invariants_td/6s120.st-T2.aig
 [runlim] argv[4]:		./gfp_invariants_td/6s120.st-T2.aig
-[runlim] start:			Mon May 19 23:27:24 2025
-[runlim] main pid:		378
+[runlim] start:			Sun Dec 21 21:13:49 2025
+[runlim] main pid:		15297
 gfp app: ../pdtinv25/benchmarks/st/6s120.st.aig ./proc_invariants_td/6s120.st-T2.aig ./gfp_invariants_td/6s120.st-T2.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,23 +17,25 @@ gfp app: ../pdtinv25/benchmarks/st/6s120.st.aig ./proc_invariants_td/6s120.st-T2
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 328
+ITP based GFP - reached size: 357
 
-GFP iteration [0] - reached size: 279
+GFP iteration [0] - reached size: 333
 
-GFP iteration [1] - reached size: 278
+GFP iteration [1] - reached size: 281
 
-GFP iteration [2] - reached size: 278
-GFP reached reduction iter 0: 328 -> 277
+GFP iteration [2] - reached size: 281
+GFP reached reduction iter 0: 357 -> 280
+
+GFP time:  1.87 s (norm 1.87 s)
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Mon May 19 23:27:27 2025
+[runlim] end:			Sun Dec 21 21:13:51 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			3.89 seconds
-[runlim] time:			2.37 seconds
-[runlim] space:			85.3 MB
-[runlim] samples:		30
+[runlim] real:			2.26 seconds
+[runlim] time:			1.89 seconds
+[runlim] space:			91.0 MB
+[runlim] samples:		19

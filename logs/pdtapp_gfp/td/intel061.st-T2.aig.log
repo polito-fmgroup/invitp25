@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/st/intel061.st.aig
 [runlim] argv[3]:		./proc_invariants_td/intel061.st-T2.aig
 [runlim] argv[4]:		./gfp_invariants_td/intel061.st-T2.aig
-[runlim] start:			Mon May 19 23:35:31 2025
-[runlim] main pid:		430
+[runlim] start:			Sun Dec 21 21:11:15 2025
+[runlim] main pid:		15130
 gfp app: ../pdtinv25/benchmarks/st/intel061.st.aig ./proc_invariants_td/intel061.st-T2.aig ./gfp_invariants_td/intel061.st-T2.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,37 +17,39 @@ gfp app: ../pdtinv25/benchmarks/st/intel061.st.aig ./proc_invariants_td/intel061
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 5343
+ITP based GFP - reached size: 6716
 
-GFP iteration [0] - reached size: 3822
+GFP iteration [0] - reached size: 4798
 
-GFP iteration [1] - reached size: 3736
+GFP iteration [1] - reached size: 4662
 
-GFP iteration [2] - reached size: 3715
+GFP iteration [2] - reached size: 4621
 
-GFP iteration [3] - reached size: 3693
+GFP iteration [3] - reached size: 4610
 
-GFP iteration [4] - reached size: 3687
+GFP iteration [4] - reached size: 4590
 
-GFP iteration [5] - reached size: 3672
+GFP iteration [5] - reached size: 4578
 
-GFP iteration [6] - reached size: 3665
+GFP iteration [6] - reached size: 4562
 
-GFP iteration [7] - reached size: 3650
+GFP iteration [7] - reached size: 4542
 
-GFP iteration [8] - reached size: 3641
+GFP iteration [8] - reached size: 4530
 
-GFP iteration [9] - reached size: 3641
-GFP reached reduction iter 0: 5343 -> 3640
+GFP iteration [9] - reached size: 4516
+GFP reached reduction iter 0: 6716 -> 4529
+
+GFP time:  3.45 s (norm 3.45 s)
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Mon May 19 23:35:40 2025
+[runlim] end:			Sun Dec 21 21:11:19 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			10.01 seconds
-[runlim] time:			8.46 seconds
-[runlim] space:			105.9 MB
-[runlim] samples:		90
+[runlim] real:			4.21 seconds
+[runlim] time:			3.49 seconds
+[runlim] space:			105.2 MB
+[runlim] samples:		35

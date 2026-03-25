@@ -1,0 +1,60 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/st/6s109.st.aig
+[runlim] argv[3]:		./proc_invariants_td/6s109.st-T4.aig
+[runlim] argv[4]:		./gfp_invariants_td/6s109.st-T4.aig
+[runlim] start:			Sun Dec 21 21:14:53 2025
+[runlim] main pid:		15393
+gfp app: ../pdtinv25/benchmarks/st/6s109.st.aig ./proc_invariants_td/6s109.st-T4.aig ./gfp_invariants_td/6s109.st-T4.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 23141
+[runlim] sample:		10.0 seconds, 270.9 MB
+
+GFP iteration [0] - reached size: 13738
+
+GFP iteration [1] - reached size: 10887
+[runlim] sample:		20.0 seconds, 187.4 MB
+
+GFP iteration [2] - reached size: 10772
+
+GFP iteration [3] - reached size: 10720
+[runlim] sample:		30.0 seconds, 167.1 MB
+
+GFP iteration [4] - reached size: 10628
+
+GFP iteration [5] - reached size: 10607
+[runlim] sample:		40.0 seconds, 186.8 MB
+
+GFP iteration [6] - reached size: 10578
+
+GFP iteration [7] - reached size: 10545
+[runlim] sample:		50.0 seconds, 179.1 MB
+
+GFP iteration [8] - reached size: 10525
+
+GFP iteration [9] - reached size: 10514
+GFP reached reduction iter 0: 23141 -> 10524
+
+GFP time:  58.10 s (norm 58.10 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 21:15:52 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			59.05 seconds
+[runlim] time:			58.38 seconds
+[runlim] space:			270.9 MB
+[runlim] samples:		584

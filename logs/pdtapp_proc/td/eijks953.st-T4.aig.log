@@ -1,0 +1,50 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		4
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/eijks953.st-T4.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/eijks953.st.aig
+[runlim] argv[7]:		./invariants_td/eijks953.st-T4.aig
+[runlim] start:			Sun Dec 21 10:19:31 2025
+[runlim] main pid:		3380
+certify app: -t -w ../pdtinv25/benchmarks/st/eijks953.st.aig ./invariants_td/eijks953.st-T4.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 2224
+|itpGEN:4659,1403(0)|.
+|itpGEN:304| - nGen:137 (avg-#lits:  1.5).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:3811,1499(0)|.
+|itpGEN:470| - nGen:195 (avg-#lits:  2.3).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:2965,1667(0)|.
+|itpGEN:474| - nGen:197 (avg-#lits:  2.3).
+itpGEN time: 0.08 s (norm 0.08 s)
+ 
+Check Done for init proved
+Checking inductive invariant of size. 2224
+
+Check Done invariant proved - time: 0.06 s (norm 0.06 s)
+Checking property of size. 137
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar of size 3144 to ./proc_invariants_td/eijks953.st-T4.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 10:19:32 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.06 seconds
+[runlim] time:			0.29 seconds
+[runlim] space:			81.0 MB
+[runlim] samples:		3

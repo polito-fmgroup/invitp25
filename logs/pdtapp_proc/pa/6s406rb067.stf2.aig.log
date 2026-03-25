@@ -1,46 +1,88 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	1800 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	7200 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		certify
 [runlim] argv[2]:		-f
 [runlim] argv[3]:		2
-[runlim] argv[4]:		-i
+[runlim] argv[4]:		-w
 [runlim] argv[5]:		./proc_invariants_pa/6s406rb067.stf2.aig
-[runlim] argv[6]:		./benchmarks/stf2/6s406rb067.stf2.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/stf2/6s406rb067.stf2.aig
 [runlim] argv[7]:		./invariants_pa/6s406rb067.stf2.aig
-[runlim] start:			Tue May 13 19:43:38 2025
-[runlim] main pid:		1265
-certify app: -f -i ./benchmarks/stf2/6s406rb067.stf2.aig ./invariants_pa/6s406rb067.stf2.aig
+[runlim] start:			Mon Dec 22 00:39:38 2025
+[runlim] main pid:		18965
+certify app: -f -w ../pdtinv25/benchmarks/stf2/6s406rb067.stf2.aig ./invariants_pa/6s406rb067.stf2.aig
 -- App Manager Init.
 -- DDI Manager Init.
 -- FSM Manager Init.
 -- TRAV Manager Init.
-ITP (|A|=300206,|B|=5409)
+|itpGEN:5408,300206(0)|.
+[runlim] sample:		10.0 seconds, 358.1 MB
+[runlim] sample:		20.0 seconds, 358.1 MB
+[runlim] sample:		30.0 seconds, 358.1 MB
+[runlim] sample:		40.0 seconds, 358.1 MB
+[runlim] sample:		50.0 seconds, 358.1 MB
+[runlim] sample:		60.0 seconds, 358.1 MB
+[runlim] sample:		70.0 seconds, 358.1 MB
+[runlim] sample:		80.0 seconds, 358.1 MB
+[runlim] sample:		90.0 seconds, 358.1 MB
+[runlim] sample:		100.0 seconds, 358.1 MB
+[runlim] sample:		110.0 seconds, 358.3 MB
+[runlim] sample:		119.9 seconds, 358.3 MB
+[runlim] sample:		129.9 seconds, 358.3 MB
+[runlim] sample:		139.9 seconds, 358.3 MB
+[runlim] sample:		149.9 seconds, 358.3 MB
+[runlim] sample:		159.9 seconds, 358.3 MB
+[runlim] sample:		169.9 seconds, 358.3 MB
+[runlim] sample:		179.9 seconds, 358.3 MB
+[runlim] sample:		189.9 seconds, 358.3 MB
+[runlim] sample:		199.9 seconds, 358.3 MB
+[runlim] sample:		209.9 seconds, 358.3 MB
+[runlim] sample:		219.9 seconds, 358.3 MB
+[runlim] sample:		229.9 seconds, 358.3 MB
+[runlim] sample:		239.9 seconds, 358.3 MB
+[runlim] sample:		249.9 seconds, 358.3 MB
+[runlim] sample:		259.9 seconds, 358.3 MB
+[runlim] sample:		269.9 seconds, 358.3 MB
+[runlim] sample:		279.9 seconds, 358.3 MB
+[runlim] sample:		289.9 seconds, 358.3 MB
+[runlim] sample:		299.9 seconds, 358.3 MB
+[runlim] sample:		309.9 seconds, 358.3 MB
+[runlim] sample:		319.9 seconds, 358.3 MB
+[runlim] sample:		329.9 seconds, 358.3 MB
+[runlim] sample:		339.9 seconds, 358.3 MB
+[runlim] sample:		349.9 seconds, 358.3 MB
+[runlim] sample:		359.9 seconds, 358.3 MB
+[runlim] sample:		369.9 seconds, 358.3 MB
+[runlim] sample:		379.9 seconds, 358.3 MB
+[runlim] sample:		389.9 seconds, 358.3 MB
+[runlim] sample:		399.9 seconds, 358.3 MB
+[runlim] sample:		409.9 seconds, 358.3 MB
+[runlim] sample:		419.9 seconds, 358.3 MB
+[runlim] sample:		429.8 seconds, 358.3 MB
+[runlim] sample:		439.8 seconds, 358.3 MB
+[runlim] sample:		449.8 seconds, 358.3 MB
+[runlim] sample:		459.8 seconds, 358.3 MB
+[runlim] sample:		469.8 seconds, 358.3 MB
+[runlim] sample:		479.8 seconds, 358.3 MB
+[runlim] sample:		489.8 seconds, 358.3 MB
+[runlim] sample:		499.8 seconds, 358.3 MB
+|itpGEN:9114| - nGen:1000(partial) (avg-#lits: 11.3).
+itpGEN time: 501.78 s (norm 501.78 s)
+ ITP (|A|=300206,|B|=14393)
 ITP time limit: -1
-Solver stats: 300238/692186 vars/clauses
-Solver stats: 83406/1995772/176(173) dec./prop./confl.(small)
-Solver stored decisions: 0
-Solver stats: time = 0.30 s (norm 0.30 s)
-Checking inductive invariant of size. 1
-
-Check Done for init proved
-Checking inductive invariant of size. 1
-
-Check Done invariant proved - time: 0.00 s (norm 0.00 s)
-Checking property of size. 19109
-
-Check Done property disproved - time: 0.05 s (norm 0.05 s)
--- App Manager Quit.
--- TRAV Manager Quit.
--- FSM Manager Quit.
--- DDI Manager Quit.
-[runlim] end:			Tue May 13 19:43:40 2025
-[runlim] status:		ok
-[runlim] result:		1
+Solver stats: 312783/782321 vars/clauses (elim v/cl:0/0)
+Solver stats: 21390/433416/4 dec./prop./confl.
+Solver stats: time = 0.06 s (norm 0.06 s)
+FATAL ERROR: NULL first operand of DDI operation
+             File /mnt/c/Users/PAS/Desktop/PostDoc/ModelChecking/PdTRAV/pdtools/pdtrav/src/ddi/ddiGeneric.c -> Line 704
+pdtapp: /mnt/c/Users/PAS/Desktop/PostDoc/ModelChecking/PdTRAV/pdtools/pdtrav/src/ddi/ddiGeneric.c:704: Ddi_Generic_t* DdiGenericOp(Ddi_OpCode_e, Ddi_OpType_e, Ddi_Generic_t*, Ddi_Generic_t*, Ddi_Generic_t*): Assertion `f!=__null' failed.
+[runlim] end:			Mon Dec 22 00:48:02 2025
+[runlim] status:		signal(6)
+[runlim] result:		134
 [runlim] children:		0
-[runlim] real:			2.49 seconds
-[runlim] time:			1.87 seconds
-[runlim] space:			352.7 MB
-[runlim] samples:		23
+[runlim] real:			504.22 seconds
+[runlim] time:			503.17 seconds
+[runlim] space:			427.3 MB
+[runlim] samples:		5034

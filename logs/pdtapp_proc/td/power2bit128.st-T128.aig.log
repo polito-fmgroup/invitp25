@@ -1,0 +1,423 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		128
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/power2bit128.st-T128.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/power2bit128.st.aig
+[runlim] argv[7]:		./invariants_td/power2bit128.st-T128.aig
+[runlim] start:			Sun Dec 21 10:25:45 2025
+[runlim] main pid:		3663
+certify app: -t -w ../pdtinv25/benchmarks/st/power2bit128.st.aig ./invariants_td/power2bit128.st-T128.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 119
+|itpGEN:13200,185(0)|.
+|itpGEN:7| - nGen:5 (avg-#lits:  1.0).
+itpGEN time: 0.07 s (norm 0.07 s)
+ |itpGEN:13097,174(0)|.
+|itpGEN:7| - nGen:4 (avg-#lits:  1.3).
+itpGEN time: 0.17 s (norm 0.17 s)
+ |itpGEN:12994,174(0)|.
+|itpGEN:18| - nGen:7 (avg-#lits:  2.3).
+itpGEN time: 0.16 s (norm 0.16 s)
+ |itpGEN:12891,181(0)|.
+|itpGEN:26| - nGen:7 (avg-#lits:  3.0).
+itpGEN time: 0.15 s (norm 0.15 s)
+ |itpGEN:12788,185(0)|.
+|itpGEN:31| - nGen:8 (avg-#lits:  3.6).
+itpGEN time: 0.16 s (norm 0.16 s)
+ |itpGEN:12685,190(0)|.
+|itpGEN:29| - nGen:7 (avg-#lits:  3.5).
+itpGEN time: 0.20 s (norm 0.20 s)
+ |itpGEN:12582,188(0)|.
+|itpGEN:32| - nGen:7 (avg-#lits:  4.0).
+itpGEN time: 0.17 s (norm 0.17 s)
+ |itpGEN:12479,191(0)|.
+|itpGEN:37| - nGen:8 (avg-#lits:  4.4).
+itpGEN time: 0.16 s (norm 0.16 s)
+ |itpGEN:12376,196(0)|.
+|itpGEN:35| - nGen:7 (avg-#lits:  4.5).
+itpGEN time: 0.17 s (norm 0.17 s)
+ |itpGEN:12273,194(0)|.
+|itpGEN:44| - nGen:10 (avg-#lits:  4.0).
+itpGEN time: 0.17 s (norm 0.17 s)
+ |itpGEN:12170,203(0)|.
+|itpGEN:68| - nGen:16 (avg-#lits:  4.2).
+itpGEN time: 0.24 s (norm 0.24 s)
+ |itpGEN:12067,224(0)|.
+|itpGEN:41| - nGen:9 (avg-#lits:  4.5).
+itpGEN time: 0.23 s (norm 0.23 s)
+ |itpGEN:11964,198(0)|.
+|itpGEN:48| - nGen:12 (avg-#lits:  4.5).
+itpGEN time: 0.25 s (norm 0.25 s)
+ |itpGEN:11861,205(0)|.
+|itpGEN:57| - nGen:12 (avg-#lits:  5.0).
+itpGEN time: 0.24 s (norm 0.24 s)
+ |itpGEN:11758,211(0)|.
+|itpGEN:63| - nGen:12 (avg-#lits:  5.5).
+itpGEN time: 0.28 s (norm 0.28 s)
+ |itpGEN:11655,217(0)|.
+|itpGEN:83| - nGen:15 (avg-#lits:  5.6).
+itpGEN time: 0.25 s (norm 0.25 s)
+ |itpGEN:11552,236(0)|.
+|itpGEN:84| - nGen:15 (avg-#lits:  5.9).
+itpGEN time: 0.24 s (norm 0.24 s)
+ |itpGEN:11449,237(0)|.
+|itpGEN:75| - nGen:12 (avg-#lits:  6.6).
+itpGEN time: 0.20 s (norm 0.20 s)
+ |itpGEN:11346,229(0)|.
+|itpGEN:108| - nGen:20 (avg-#lits:  5.8).
+itpGEN time: 0.25 s (norm 0.25 s)
+ |itpGEN:11243,261(0)|.
+|itpGEN:90| - nGen:16 (avg-#lits:  5.9).
+itpGEN time: 0.26 s (norm 0.26 s)
+ |itpGEN:11140,243(0)|.
+|itpGEN:90| - nGen:15 (avg-#lits:  6.1).
+itpGEN time: 0.27 s (norm 0.27 s)
+ |itpGEN:11037,244(0)|.
+|itpGEN:90| - nGen:15 (avg-#lits:  6.2).
+itpGEN time: 0.21 s (norm 0.21 s)
+ |itpGEN:10934,243(0)|.
+|itpGEN:90| - nGen:15 (avg-#lits:  6.2).
+itpGEN time: 0.21 s (norm 0.21 s)
+ |itpGEN:10831,243(0)|.
+|itpGEN:88| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.27 s (norm 0.27 s)
+ |itpGEN:10728,242(0)|.
+|itpGEN:88| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.26 s (norm 0.26 s)
+ |itpGEN:10625,242(0)|.
+|itpGEN:88| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.25 s (norm 0.25 s)
+ |itpGEN:10522,242(0)|.
+|itpGEN:88| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.24 s (norm 0.24 s)
+ |itpGEN:10419,242(0)|.
+|itpGEN:90| - nGen:15 (avg-#lits:  6.2).
+itpGEN time: 0.24 s (norm 0.24 s)
+ |itpGEN:10316,244(0)|.
+|itpGEN:92| - nGen:15 (avg-#lits:  6.3).
+itpGEN time: 0.24 s (norm 0.24 s)
+ |itpGEN:10213,245(0)|.
+|itpGEN:87| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.20 s (norm 0.20 s)
+ |itpGEN:10110,241(0)|.
+|itpGEN:88| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.23 s (norm 0.23 s)
+ |itpGEN:10007,242(0)|.
+|itpGEN:87| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.24 s (norm 0.24 s)
+ |itpGEN:9904,241(0)|.
+|itpGEN:88| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.21 s (norm 0.21 s)
+ |itpGEN:9801,242(0)|.
+|itpGEN:87| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.17 s (norm 0.17 s)
+ |itpGEN:9698,241(0)|.
+|itpGEN:95| - nGen:16 (avg-#lits:  6.1).
+itpGEN time: 0.18 s (norm 0.18 s)
+ |itpGEN:9595,249(0)|.
+|itpGEN:91| - nGen:15 (avg-#lits:  6.2).
+itpGEN time: 0.20 s (norm 0.20 s)
+ |itpGEN:9492,244(0)|.
+|itpGEN:89| - nGen:14 (avg-#lits:  6.5).
+itpGEN time: 0.22 s (norm 0.22 s)
+ |itpGEN:9389,243(0)|.
+|itpGEN:94| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.22 s (norm 0.22 s)
+ |itpGEN:9286,248(0)|.
+|itpGEN:96| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.19 s (norm 0.19 s)
+ |itpGEN:9183,249(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.15 s (norm 0.15 s)
+ |itpGEN:9080,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.19 s (norm 0.19 s)
+ |itpGEN:8977,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.20 s (norm 0.20 s)
+ |itpGEN:8874,247(0)|.
+|itpGEN:96| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.19 s (norm 0.19 s)
+ |itpGEN:8771,249(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.17 s (norm 0.17 s)
+ |itpGEN:8668,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.15 s (norm 0.15 s)
+ |itpGEN:8565,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.17 s (norm 0.17 s)
+ |itpGEN:8462,247(0)|.
+[runlim] sample:		10.0 seconds, 143.3 MB
+|itpGEN:94| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.15 s (norm 0.15 s)
+ |itpGEN:8359,248(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.16 s (norm 0.16 s)
+ |itpGEN:8256,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.16 s (norm 0.16 s)
+ |itpGEN:8153,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.16 s (norm 0.16 s)
+ |itpGEN:8050,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.16 s (norm 0.16 s)
+ |itpGEN:7947,247(0)|.
+|itpGEN:94| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.18 s (norm 0.18 s)
+ |itpGEN:7844,248(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.13 s (norm 0.13 s)
+ |itpGEN:7741,247(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.15 s (norm 0.15 s)
+ |itpGEN:7638,247(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.15 s (norm 0.15 s)
+ |itpGEN:7535,247(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.14 s (norm 0.14 s)
+ |itpGEN:7432,248(0)|.
+|itpGEN:92| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.13 s (norm 0.13 s)
+ |itpGEN:7329,246(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.13 s (norm 0.13 s)
+ |itpGEN:7226,248(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.14 s (norm 0.14 s)
+ |itpGEN:7123,248(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.12 s (norm 0.12 s)
+ |itpGEN:7020,247(0)|.
+|itpGEN:96| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.12 s (norm 0.12 s)
+ |itpGEN:6917,249(0)|.
+|itpGEN:96| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.13 s (norm 0.13 s)
+ |itpGEN:6814,249(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.12 s (norm 0.12 s)
+ |itpGEN:6711,247(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.11 s (norm 0.11 s)
+ |itpGEN:6608,248(0)|.
+|itpGEN:96| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.13 s (norm 0.13 s)
+ |itpGEN:6505,249(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.11 s (norm 0.11 s)
+ |itpGEN:6402,248(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.13 s (norm 0.13 s)
+ |itpGEN:6299,248(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.12 s (norm 0.12 s)
+ |itpGEN:6196,248(0)|.
+|itpGEN:92| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.10 s (norm 0.10 s)
+ |itpGEN:6093,246(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.10 s (norm 0.10 s)
+ |itpGEN:5990,247(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.11 s (norm 0.11 s)
+ |itpGEN:5887,247(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.09 s (norm 0.09 s)
+ |itpGEN:5784,248(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.10 s (norm 0.10 s)
+ |itpGEN:5681,247(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.10 s (norm 0.10 s)
+ |itpGEN:5578,247(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.10 s (norm 0.10 s)
+ |itpGEN:5475,248(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.09 s (norm 0.09 s)
+ |itpGEN:5372,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.08 s (norm 0.08 s)
+ |itpGEN:5269,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.08 s (norm 0.08 s)
+ |itpGEN:5166,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.07 s (norm 0.07 s)
+ |itpGEN:5063,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.09 s (norm 0.09 s)
+ |itpGEN:4960,247(0)|.
+|itpGEN:97| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.07 s (norm 0.07 s)
+ |itpGEN:4857,250(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.07 s (norm 0.07 s)
+ |itpGEN:4754,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.07 s (norm 0.07 s)
+ |itpGEN:4651,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:4548,247(0)|.
+|itpGEN:97| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:4445,250(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.07 s (norm 0.07 s)
+ |itpGEN:4342,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.07 s (norm 0.07 s)
+ |itpGEN:4239,247(0)|.
+|itpGEN:92| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:4136,246(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:4033,247(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:3930,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:3827,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:3724,247(0)|.
+|itpGEN:96| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:3621,249(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:3518,248(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:3415,248(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:3312,248(0)|.
+|itpGEN:96| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:3209,249(0)|.
+|itpGEN:92| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.04 s (norm 0.04 s)
+ |itpGEN:3106,246(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.04 s (norm 0.04 s)
+ |itpGEN:3003,248(0)|.
+|itpGEN:92| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.04 s (norm 0.04 s)
+ |itpGEN:2900,246(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.04 s (norm 0.04 s)
+ |itpGEN:2797,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.04 s (norm 0.04 s)
+ |itpGEN:2694,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:2591,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:2488,247(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:2385,247(0)|.
+|itpGEN:97| - nGen:15 (avg-#lits:  6.6).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:2282,250(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:2179,247(0)|.
+|itpGEN:100| - nGen:16 (avg-#lits:  6.3).
+itpGEN time: 0.02 s (norm 0.02 s)
+ |itpGEN:2076,254(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.02 s (norm 0.02 s)
+ |itpGEN:1973,247(0)|.
+|itpGEN:103| - nGen:19 (avg-#lits:  5.7).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:1870,256(0)|.
+|itpGEN:95| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.02 s (norm 0.02 s)
+ |itpGEN:1767,248(0)|.
+|itpGEN:92| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.02 s (norm 0.02 s)
+ |itpGEN:1664,246(0)|.
+|itpGEN:94| - nGen:15 (avg-#lits:  6.5).
+itpGEN time: 0.02 s (norm 0.02 s)
+ |itpGEN:1561,247(0)|.
+|itpGEN:109| - nGen:19 (avg-#lits:  5.8).
+itpGEN time: 0.02 s (norm 0.02 s)
+ |itpGEN:1458,262(0)|.
+|itpGEN:92| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.02 s (norm 0.02 s)
+ |itpGEN:1355,246(0)|.
+|itpGEN:93| - nGen:14 (avg-#lits:  6.8).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:1252,247(0)|.
+|itpGEN:79| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:1149,233(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:1046,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:943,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:840,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:737,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:634,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:531,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.01 s (norm 0.01 s)
+ |itpGEN:428,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.00 s (norm 0.00 s)
+ |itpGEN:325,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.00 s (norm 0.00 s)
+ |itpGEN:222,245(0)|.
+|itpGEN:91| - nGen:13 (avg-#lits:  7.2).
+itpGEN time: 0.00 s (norm 0.00 s)
+ 
+Check Done for init proved
+Checking inductive invariant of size. 119
+
+Check Done invariant proved - time: 0.00 s (norm 0.00 s)
+Checking property of size. 13
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar of size 1590 to ./proc_invariants_td/power2bit128.st-T128.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 10:26:02 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			17.51 seconds
+[runlim] time:			16.48 seconds
+[runlim] space:			147.1 MB
+[runlim] samples:		165

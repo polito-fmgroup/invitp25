@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/stf2/intel034.stf2.aig
 [runlim] argv[3]:		./proc_invariants_pa/intel034.stf2.aig
 [runlim] argv[4]:		./gfp_invariants_pa/intel034.stf2.aig
-[runlim] start:			Mon May 19 20:46:18 2025
-[runlim] main pid:		422
+[runlim] start:			Sun Dec 21 20:54:05 2025
+[runlim] main pid:		14508
 gfp app: ../pdtinv25/benchmarks/stf2/intel034.stf2.aig ./proc_invariants_pa/intel034.stf2.aig ./gfp_invariants_pa/intel034.stf2.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,57 +17,49 @@ gfp app: ../pdtinv25/benchmarks/stf2/intel034.stf2.aig ./proc_invariants_pa/inte
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 158887
-[runlim] sample:		8.3 seconds, 397.0 MB
-[runlim] sample:		18.3 seconds, 397.0 MB
-[runlim] sample:		28.3 seconds, 397.0 MB
-[runlim] sample:		38.3 seconds, 397.0 MB
-[runlim] sample:		48.3 seconds, 397.0 MB
-[runlim] sample:		58.3 seconds, 397.0 MB
-[runlim] sample:		68.3 seconds, 397.0 MB
-[runlim] sample:		78.2 seconds, 458.1 MB
-[runlim] sample:		88.2 seconds, 458.1 MB
-[runlim] sample:		98.2 seconds, 458.1 MB
-[runlim] sample:		108.2 seconds, 458.1 MB
-[runlim] sample:		118.2 seconds, 458.8 MB
+ITP based GFP - reached size: 43749
+[runlim] sample:		10.0 seconds, 280.0 MB
+[runlim] sample:		20.0 seconds, 364.5 MB
+[runlim] sample:		30.0 seconds, 439.0 MB
+[runlim] sample:		40.0 seconds, 439.0 MB
+[runlim] sample:		50.0 seconds, 259.1 MB
 
-GFP iteration [0] - reached size: 16955
+GFP iteration [0] - reached size: 27710
+[runlim] sample:		60.0 seconds, 325.9 MB
 
-GFP iteration [1] - reached size: 16758
-[runlim] sample:		128.0 seconds, 459.8 MB
+GFP iteration [1] - reached size: 21498
 
-GFP iteration [2] - reached size: 16677
-[runlim] sample:		138.0 seconds, 459.8 MB
+GFP iteration [2] - reached size: 18540
+[runlim] sample:		70.0 seconds, 320.7 MB
 
-GFP iteration [3] - reached size: 16643
-[runlim] sample:		148.0 seconds, 459.8 MB
+GFP iteration [3] - reached size: 18355
 
-GFP iteration [4] - reached size: 16635
-[runlim] sample:		157.9 seconds, 459.8 MB
+GFP iteration [4] - reached size: 18254
+[runlim] sample:		80.0 seconds, 307.3 MB
 
-GFP iteration [5] - reached size: 16610
-[runlim] sample:		167.9 seconds, 459.8 MB
+GFP iteration [5] - reached size: 18221
+[runlim] sample:		90.0 seconds, 327.1 MB
 
-GFP iteration [6] - reached size: 16602
-[runlim] sample:		177.9 seconds, 459.8 MB
+GFP iteration [6] - reached size: 18181
 
-GFP iteration [7] - reached size: 16591
-[runlim] sample:		187.9 seconds, 459.8 MB
+GFP iteration [7] - reached size: 18146
+[runlim] sample:		100.0 seconds, 324.7 MB
 
-GFP iteration [8] - reached size: 16586
-[runlim] sample:		197.9 seconds, 459.8 MB
+GFP iteration [8] - reached size: 18099
 
-GFP iteration [9] - reached size: 16581
-GFP reached reduction iter 0: 158887 -> 16585
+GFP iteration [9] - reached size: 18075
+GFP reached reduction iter 0: 43749 -> 18098
+
+GFP time:  105.81 s (norm 105.81 s)
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Mon May 19 20:49:45 2025
+[runlim] end:			Sun Dec 21 20:55:52 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			208.01 seconds
-[runlim] time:			205.00 seconds
-[runlim] space:			465.8 MB
-[runlim] samples:		2072
+[runlim] real:			107.10 seconds
+[runlim] time:			106.86 seconds
+[runlim] space:			439.0 MB
+[runlim] samples:		1069

@@ -1,0 +1,28 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	7200 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		7
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/pdtvisrethersqo0.st-T7.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/pdtvisrethersqo0.st.aig
+[runlim] argv[7]:		./invariants_td/pdtvisrethersqo0.st-T7.aig
+[runlim] start:			Sun Dec 21 22:39:25 2025
+[runlim] main pid:		16011
+certify app: -t -w ../pdtinv25/benchmarks/st/pdtvisrethersqo0.st.aig ./invariants_td/pdtvisrethersqo0.st-T7.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Error Loading AIGER file ./invariants_td/pdtvisrethersqo0.st-T7.aig - error line 1: expected space or new line after literal 0.
+[runlim] end:			Sun Dec 21 22:39:26 2025
+[runlim] status:		segmentation fault
+[runlim] result:		139
+[runlim] children:		0
+[runlim] real:			1.04 seconds
+[runlim] time:			0.02 seconds
+[runlim] space:			72.9 MB
+[runlim] samples:		1

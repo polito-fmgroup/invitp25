@@ -1,0 +1,36 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		../pdtinv25/benchmarks/st/phases_2-1.st.aig
+[runlim] argv[3]:		./proc_invariants_pa/phases_2-1.stf2.aig
+[runlim] start:			Fri Aug 29 10:32:44 2025
+[runlim] main pid:		31537
+certify app: ../pdtinv25/benchmarks/st/phases_2-1.st.aig ./proc_invariants_pa/phases_2-1.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 199
+
+Check Done for init proved
+Checking inductive invariant of size. 199
+
+Check Done invariant disproved - time: 0.02 s (norm 0.02 s)
+Checking property of size. 7
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Fri Aug 29 10:32:44 2025
+[runlim] status:		ok
+[runlim] result:		1
+[runlim] children:		0
+[runlim] real:			0.82 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0

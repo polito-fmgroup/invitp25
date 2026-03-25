@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/stf2/eijks386.stf2.aig
 [runlim] argv[3]:		./proc_invariants_pa/eijks386.stf2.aig
 [runlim] argv[4]:		./gfp_invariants_pa/eijks386.stf2.aig
-[runlim] start:			Mon May 19 20:43:14 2025
-[runlim] main pid:		408
+[runlim] start:			Sun Dec 21 20:17:29 2025
+[runlim] main pid:		13350
 gfp app: ../pdtinv25/benchmarks/stf2/eijks386.stf2.aig ./proc_invariants_pa/eijks386.stf2.aig ./gfp_invariants_pa/eijks386.stf2.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,23 +17,39 @@ gfp app: ../pdtinv25/benchmarks/stf2/eijks386.stf2.aig ./proc_invariants_pa/eijk
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 5760
+ITP based GFP - reached size: 661
 
-GFP iteration [0] - reached size: 609
+GFP iteration [0] - reached size: 650
 
-GFP iteration [1] - reached size: 425
+GFP iteration [1] - reached size: 627
 
-GFP iteration [2] - reached size: 425
-GFP reached reduction iter 0: 5760 -> 424
+GFP iteration [2] - reached size: 611
+
+GFP iteration [3] - reached size: 599
+
+GFP iteration [4] - reached size: 593
+
+GFP iteration [5] - reached size: 580
+
+GFP iteration [6] - reached size: 570
+
+GFP iteration [7] - reached size: 554
+
+GFP iteration [8] - reached size: 549
+
+GFP iteration [9] - reached size: 546
+GFP reached reduction iter 0: 661 -> 548
+
+GFP time:  0.25 s (norm 0.25 s)
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Mon May 19 20:43:15 2025
+[runlim] end:			Sun Dec 21 20:17:29 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			1.60 seconds
-[runlim] time:			0.47 seconds
-[runlim] space:			88.6 MB
-[runlim] samples:		11
+[runlim] real:			0.42 seconds
+[runlim] time:			0.26 seconds
+[runlim] space:			81.8 MB
+[runlim] samples:		3

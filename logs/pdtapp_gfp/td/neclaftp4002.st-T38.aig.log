@@ -1,0 +1,55 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/st/neclaftp4002.st.aig
+[runlim] argv[3]:		./proc_invariants_td/neclaftp4002.st-T38.aig
+[runlim] argv[4]:		./gfp_invariants_td/neclaftp4002.st-T38.aig
+[runlim] start:			Sun Dec 21 21:11:27 2025
+[runlim] main pid:		15161
+gfp app: ../pdtinv25/benchmarks/st/neclaftp4002.st.aig ./proc_invariants_td/neclaftp4002.st-T38.aig ./gfp_invariants_td/neclaftp4002.st-T38.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+125 stalled latches found
+
+ITP based GFP - reached size: 6584
+
+GFP iteration [0] - reached size: 3529
+
+GFP iteration [1] - reached size: 2678
+
+GFP iteration [2] - reached size: 2582
+
+GFP iteration [3] - reached size: 2508
+
+GFP iteration [4] - reached size: 2349
+
+GFP iteration [5] - reached size: 2307
+
+GFP iteration [6] - reached size: 2284
+
+GFP iteration [7] - reached size: 2281
+
+GFP iteration [8] - reached size: 2279
+
+GFP iteration [9] - reached size: 2279
+GFP reached reduction iter 0: 6584 -> 2278
+
+GFP time:  1.06 s (norm 1.06 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 21:11:28 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.37 seconds
+[runlim] time:			1.10 seconds
+[runlim] space:			133.1 MB
+[runlim] samples:		11

@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/stf2/pdtvisvending00.stf2.aig
 [runlim] argv[3]:		./proc_invariants_pa/pdtvisvending00.stf2.aig
 [runlim] argv[4]:		./gfp_invariants_pa/pdtvisvending00.stf2.aig
-[runlim] start:			Mon May 19 23:26:59 2025
-[runlim] main pid:		350
+[runlim] start:			Sun Dec 21 20:49:09 2025
+[runlim] main pid:		14329
 gfp app: ../pdtinv25/benchmarks/stf2/pdtvisvending00.stf2.aig ./proc_invariants_pa/pdtvisvending00.stf2.aig ./gfp_invariants_pa/pdtvisvending00.stf2.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,29 +17,37 @@ gfp app: ../pdtinv25/benchmarks/stf2/pdtvisvending00.stf2.aig ./proc_invariants_
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 6431
+ITP based GFP - reached size: 592
 
-GFP iteration [0] - reached size: 375
+GFP iteration [0] - reached size: 329
 
-GFP iteration [1] - reached size: 361
+GFP iteration [1] - reached size: 324
 
-GFP iteration [2] - reached size: 317
+GFP iteration [2] - reached size: 321
 
-GFP iteration [3] - reached size: 316
+GFP iteration [3] - reached size: 319
 
-GFP iteration [4] - reached size: 314
+GFP iteration [4] - reached size: 316
 
-GFP iteration [5] - reached size: 314
-GFP reached reduction iter 0: 6431 -> 313
+GFP iteration [5] - reached size: 315
+
+GFP iteration [6] - reached size: 313
+
+GFP iteration [7] - reached size: 310
+
+GFP iteration [8] - reached size: 310
+GFP reached reduction iter 0: 592 -> 309
+
+GFP time:  0.42 s (norm 0.42 s)
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Mon May 19 23:27:01 2025
+[runlim] end:			Sun Dec 21 20:49:10 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			2.14 seconds
-[runlim] time:			0.89 seconds
-[runlim] space:			91.2 MB
-[runlim] samples:		15
+[runlim] real:			1.16 seconds
+[runlim] time:			0.44 seconds
+[runlim] space:			82.0 MB
+[runlim] samples:		5

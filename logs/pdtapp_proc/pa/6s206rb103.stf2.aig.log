@@ -1,57 +1,87 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	1800 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		certify
 [runlim] argv[2]:		-f
 [runlim] argv[3]:		2
-[runlim] argv[4]:		-i
+[runlim] argv[4]:		-w
 [runlim] argv[5]:		./proc_invariants_pa/6s206rb103.stf2.aig
-[runlim] argv[6]:		./benchmarks/stf2/6s206rb103.stf2.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/stf2/6s206rb103.stf2.aig
 [runlim] argv[7]:		./invariants_pa/6s206rb103.stf2.aig
-[runlim] start:			Tue May 13 19:36:43 2025
-[runlim] main pid:		1225
-certify app: -f -i ./benchmarks/stf2/6s206rb103.stf2.aig ./invariants_pa/6s206rb103.stf2.aig
+[runlim] start:			Sun Dec 21 14:56:53 2025
+[runlim] main pid:		11222
+certify app: -f -w ../pdtinv25/benchmarks/stf2/6s206rb103.stf2.aig ./invariants_pa/6s206rb103.stf2.aig
 -- App Manager Init.
 -- DDI Manager Init.
 -- FSM Manager Init.
 -- TRAV Manager Init.
-ITP (|A|=353679,|B|=217)
+|itpGEN:209,353679(0)|.
+|itpGEN:2025| - nGen:1000(partial) (avg-#lits:  1.0).
+itpGEN time: 3.48 s (norm 3.48 s)
+ ITP (|A|=353679,|B|=2234)
 ITP time limit: -1
-Solver stats: 353844/585934 vars/clauses
-Solver stats: 4031/222007/9(8) dec./prop./confl.(small)
-Solver stored decisions: 0
-Solver stats: time = 0.07 s (norm 0.07 s)
-computing interpolant from refutation proof of size 844180 (AIG nodes: 636456)
-ITP proof unit res. cl,: 130(A:20/B:104/AB:6 - equiv:1)
-ITP proof two res. cl: 1(AB:0)
-ITP core: (209,115103 + 132) / 844181
-ITP proof core: (root: 211,0 + chain: 132 (res: 351) - ref2: 84) / tot:844183
-ITP proof remapped roots: 21 - eq nodes: 88 - tot: 65
-ROOT stats - zero: 48 - one: 142 - lit: 12 - clause: 7
-ITP proof core: (root: 21,0 + chain: 44 (res: 81) - ref2: 36) / tot:65
-ITP proof remapped roots: 21 - eq nodes: 10 - tot: 55
-ROOT stats - zero: 0 - one: 0 - lit: 12 - clause: 7
-ITP proof core: (root: 21,0 + chain: 34 (res: 71) - ref2: 27) / tot:55
+Solver stats: 354859/722940 vars/clauses (elim v/cl:0/0)
+Solver stats: 3791/195841/10 dec./prop./confl.
+Solver stats: time = 0.03 s (norm 0.03 s)
+computing interpolant from refutation proof of size 10 (AIG nodes: 637472)
+RES PROOF RECYCL PIV. REMOVED 13 resolutions
+RESTRUCT PROOF REMOVED 0 redundant resolutions
+RES PROOF PROCESSED: 109648 A, 1157 B, 80875 resA, 1012 resB, 187 res (tot: 192879)
+RES PROOF has 480 core and 192399 out of core nodes
+RES PROOF compacted from 192879 to 480 nodes
+RES PROOF SWAPPED 5 resolution vars
+resB: 0
+GET PROOF 146 A (0 resA) - 147 B (0 resB) - 187 res - 0 red
+RES PROOF (noop) MOVED from (A:0+B:0) 0 B->A: 0 resA, 0 resB, 187 res, 0 redundant (red root: 0)
+resB: 0
+GET PROOF 146 A (0 resA) - 147 B (0 resB) - 187 res - 0 red
+ITP proof core: (root: 295,0 + chain: 124 (res: 500) - ref2: 91) / tot:482
+ITP proof remapped roots: 9 - eq nodes: 77 - tot: 56
+ROOT stats - zero: 139 - one: 147 - lit: 7 - clause: 0
+ITP proof core: (root: 9,0 + chain: 47 (res: 68) - ref2: 40) / tot:56
+ITP proof red Simpl (impl: 0): 0
+ITP proof core: (root: 9,0 + chain: 47 (res: 68) - ref2: 40) / tot:56
+bdd merge: 1
+ITP proof remapped roots: 9 - eq nodes: 36 - tot: 20
+ROOT stats - zero: 0 - one: 0 - lit: 7 - clause: 0
+ITP proof core: (root: 9,0 + chain: 11 (res: 30) - ref2: 8) / tot:20
 ITP proof dupv: 0 [impl: 0] - implNodes: 0
-ITP proof core: (root: 21,0 + chain: 34 (res: 71) - ref2: 27) / tot:55
-ITP proof remapped roots: 21 - eq nodes: 0 - tot: 55
-ROOT stats - zero: 0 - one: 0 - lit: 12 - clause: 7
-ITP proof core: (root: 21,0 + chain: 34 (res: 71) - ref2: 27) / tot:55
-ITP proof red Simpl (impl: 0): 1
-ITP proof core: (root: 21,0 + chain: 34 (res: 70) - ref2: 27) / tot:55
-ITP proof remapped roots: 21 - eq nodes: 0 - tot: 55
-ROOT stats - zero: 0 - one: 0 - lit: 12 - clause: 7
-ITP proof core: (root: 21,0 + chain: 34 (res: 70) - ref2: 27) / tot:55
+ITP proof core: (root: 9,0 + chain: 11 (res: 30) - ref2: 8) / tot:20
+ITP proof remapped roots: 9 - eq nodes: 0 - tot: 20
+ROOT stats - zero: 0 - one: 0 - lit: 7 - clause: 0
+ITP proof core: (root: 9,0 + chain: 11 (res: 30) - ref2: 8) / tot:20
 ITP proof dupv: 0 - implNodesOdc: 6
-ITP proof core: (root: 21,0 + chain: 34 (res: 64) - ref2: 27) / tot:55
+ITP proof core: (root: 9,0 + chain: 11 (res: 24) - ref2: 8) / tot:20
 ITP proof dupv: 0 [impl: 0] - implNodes: 0
+TOT NNF SIMPL: 21 -> (abcBal: 21) -> 21 (1 iterations)
+ITP proof core: (root: 286,0 + chain: 39 (res: 474) - ref2: 23) / tot:332
+ITP proof remapped roots: 9 - eq nodes: 24 - tot: 24
+ROOT stats - zero: 139 - one: 138 - lit: 7 - clause: 0
+ITP proof core: (root: 9,0 + chain: 15 (res: 47) - ref2: 9) / tot:24
+ITP proof red Simpl (impl: 0): 0
+ITP proof core: (root: 9,0 + chain: 15 (res: 47) - ref2: 9) / tot:24
+bdd merge: 5
+ITP proof remapped roots: 9 - eq nodes: 8 - tot: 16
+ROOT stats - zero: 0 - one: 0 - lit: 7 - clause: 0
+ITP proof core: (root: 9,0 + chain: 7 (res: 20) - ref2: 5) / tot:16
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+ITP proof core: (root: 9,0 + chain: 7 (res: 20) - ref2: 5) / tot:16
+ITP proof remapped roots: 9 - eq nodes: 0 - tot: 16
+ROOT stats - zero: 0 - one: 0 - lit: 7 - clause: 0
+ITP proof core: (root: 9,0 + chain: 7 (res: 20) - ref2: 5) / tot:16
+ITP proof dupv: 0 - implNodesOdc: 4
+ITP proof core: (root: 9,0 + chain: 7 (res: 16) - ref2: 5) / tot:16
+ITP proof dupv: 0 [impl: 0] - implNodes: 0
+STRUCT ODC[AND:3]: 23 -> 21
+TOT NNF SIMPL: 21 -> (abcBal: 16) -> 16 (1 iterations)
 interpolant OPT: 0 (0,0)
-interpolant AUXV: 0 - AIG nodes 636493
-interpolant stats: clause terms/a/o/ao -> 34/0/0/34 - A nodes: 34 (and->or): 48
-TOT NNF SIMPL: 32 -> (abcBal: 29) -> 29 (1 iterations)
-itp opt: 29 -> 29
+interpolant AUXV: 0 - AIG nodes 637483
+itp stats: clause terms/a/o/ao -> 18/0/0/18 - A nodes: 0 (and->or): 32764
+STRUCT ODC[AND:2]: 11 -> 11
+TOT NNF SIMPL: 11 -> (abcBal: 11) -> 11 (1 iterations)
+itp opt: 11 -> 11
 Checking inductive invariant of size. 14
 
 Check Done for init proved
@@ -61,16 +91,16 @@ Check Done invariant proved - time: 0.00 s (norm 0.00 s)
 Checking property of size. 205
 
 Check Done property proved - time: 0.00 s (norm 0.00 s)
-Writing invar to ./proc_invariants_pa/6s206rb103.stf2.aig
+Writing invar of size 2046 to ./proc_invariants_pa/6s206rb103.stf2.aig
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Tue May 13 19:36:51 2025
+[runlim] end:			Sun Dec 21 14:57:00 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			8.99 seconds
-[runlim] time:			7.78 seconds
-[runlim] space:			611.9 MB
-[runlim] samples:		86
+[runlim] real:			7.37 seconds
+[runlim] time:			6.69 seconds
+[runlim] space:			660.1 MB
+[runlim] samples:		67

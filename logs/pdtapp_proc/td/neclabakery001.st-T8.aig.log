@@ -1,0 +1,62 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		8
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/neclabakery001.st-T8.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/neclabakery001.st.aig
+[runlim] argv[7]:		./invariants_td/neclabakery001.st-T8.aig
+[runlim] start:			Sun Dec 21 11:27:18 2025
+[runlim] main pid:		5209
+certify app: -t -w ../pdtinv25/benchmarks/st/neclabakery001.st.aig ./invariants_td/neclabakery001.st-T8.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 1362
+|itpGEN:6206,1210(0)|.
+|itpGEN:99| - nGen:51 (avg-#lits:  1.0).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:5492,1177(0)|.
+|itpGEN:31| - nGen:15 (avg-#lits:  1.3).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:4778,1145(0)|.
+|itpGEN:110| - nGen:19 (avg-#lits:  3.7).
+itpGEN time: 0.04 s (norm 0.04 s)
+ |itpGEN:4064,1190(0)|.
+|itpGEN:130| - nGen:30 (avg-#lits:  3.0).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:3350,1211(0)|.
+|itpGEN:169| - nGen:26 (avg-#lits:  4.9).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:2636,1247(0)|.
+|itpGEN:106| - nGen:39 (avg-#lits:  2.3).
+itpGEN time: 0.03 s (norm 0.03 s)
+ |itpGEN:1922,1213(0)|.
+|itpGEN:87| - nGen:30 (avg-#lits:  2.4).
+itpGEN time: 0.02 s (norm 0.02 s)
+ 
+Check Done for init proved
+Checking inductive invariant of size. 1362
+
+Check Done invariant proved - time: 0.02 s (norm 0.02 s)
+Checking property of size. 11
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar of size 1890 to ./proc_invariants_td/neclabakery001.st-T8.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 11:27:19 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.20 seconds
+[runlim] time:			0.28 seconds
+[runlim] space:			83.6 MB
+[runlim] samples:		3

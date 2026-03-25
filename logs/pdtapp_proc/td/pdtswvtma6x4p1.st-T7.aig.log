@@ -1,0 +1,59 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		7
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/pdtswvtma6x4p1.st-T7.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/pdtswvtma6x4p1.st.aig
+[runlim] argv[7]:		./invariants_td/pdtswvtma6x4p1.st-T7.aig
+[runlim] start:			Sun Dec 21 10:19:32 2025
+[runlim] main pid:		3387
+certify app: -t -w ../pdtinv25/benchmarks/st/pdtswvtma6x4p1.st.aig ./invariants_td/pdtswvtma6x4p1.st-T7.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 3395
+|itpGEN:14665,2492(0)|.
+|itpGEN:85| - nGen:44 (avg-#lits:  1.0).
+itpGEN time: 0.09 s (norm 0.09 s)
+ |itpGEN:12778,2486(0)|.
+|itpGEN:79| - nGen:41 (avg-#lits:  1.0).
+itpGEN time: 0.09 s (norm 0.09 s)
+ |itpGEN:10891,2483(0)|.
+|itpGEN:77| - nGen:40 (avg-#lits:  1.0).
+itpGEN time: 0.08 s (norm 0.08 s)
+ |itpGEN:9004,2482(0)|.
+|itpGEN:115| - nGen:50 (avg-#lits:  1.5).
+itpGEN time: 0.06 s (norm 0.06 s)
+ |itpGEN:7117,2518(0)|.
+|itpGEN:192| - nGen:76 (avg-#lits:  2.1).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:5230,2594(0)|.
+|itpGEN:210| - nGen:80 (avg-#lits:  2.2).
+itpGEN time: 0.08 s (norm 0.08 s)
+ 
+Check Done for init proved
+Checking inductive invariant of size. 3395
+
+Check Done invariant proved - time: 0.25 s (norm 0.25 s)
+Checking property of size. 1
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar of size 3933 to ./proc_invariants_td/pdtswvtma6x4p1.st-T7.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 10:19:33 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.04 seconds
+[runlim] time:			0.79 seconds
+[runlim] space:			94.6 MB
+[runlim] samples:		8

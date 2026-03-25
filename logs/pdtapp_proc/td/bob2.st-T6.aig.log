@@ -1,0 +1,56 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		6
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/bob2.st-T6.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/bob2.st.aig
+[runlim] argv[7]:		./invariants_td/bob2.st-T6.aig
+[runlim] start:			Sun Dec 21 10:26:02 2025
+[runlim] main pid:		3666
+certify app: -t -w ../pdtinv25/benchmarks/st/bob2.st.aig ./invariants_td/bob2.st-T6.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 98
+|itpGEN:436,323(0)|.
+|itpGEN:13| - nGen:8 (avg-#lits:  1.0).
+itpGEN time: 0.00 s (norm 0.00 s)
+ |itpGEN:361,296(0)|.
+|itpGEN:53| - nGen:22 (avg-#lits:  2.0).
+itpGEN time: 0.00 s (norm 0.00 s)
+ |itpGEN:286,330(0)|.
+|itpGEN:78| - nGen:33 (avg-#lits:  2.4).
+itpGEN time: 0.00 s (norm 0.00 s)
+ |itpGEN:211,357(0)|.
+|itpGEN:100| - nGen:39 (avg-#lits:  2.6).
+itpGEN time: 0.00 s (norm 0.00 s)
+ |itpGEN:148,377(0)|.
+|itpGEN:112| - nGen:41 (avg-#lits:  2.7).
+itpGEN time: 0.00 s (norm 0.00 s)
+ 
+Check Done for init proved
+Checking inductive invariant of size. 98
+
+Check Done invariant proved - time: 0.00 s (norm 0.00 s)
+Checking property of size. 7
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar of size 351 to ./proc_invariants_td/bob2.st-T6.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 10:26:02 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.57 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0

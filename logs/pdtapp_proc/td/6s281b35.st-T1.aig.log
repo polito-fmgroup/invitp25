@@ -1,0 +1,28 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	7200 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		1
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/6s281b35.st-T1.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/6s281b35.st.aig
+[runlim] argv[7]:		./invariants_td/6s281b35.st-T1.aig
+[runlim] start:			Sun Dec 21 22:39:26 2025
+[runlim] main pid:		16023
+certify app: -t -w ../pdtinv25/benchmarks/st/6s281b35.st.aig ./invariants_td/6s281b35.st-T1.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 22283
+[runlim] end:			Sun Dec 21 22:39:33 2025
+[runlim] status:		segmentation fault
+[runlim] result:		139
+[runlim] children:		0
+[runlim] real:			7.09 seconds
+[runlim] time:			6.72 seconds
+[runlim] space:			996.7 MB
+[runlim] samples:		68

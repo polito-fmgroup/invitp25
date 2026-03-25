@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/st/6s276rb342.st.aig
 [runlim] argv[3]:		./proc_invariants_td/6s276rb342.st-T6.aig
 [runlim] argv[4]:		./gfp_invariants_td/6s276rb342.st-T6.aig
-[runlim] start:			Mon May 19 23:29:07 2025
-[runlim] main pid:		388
+[runlim] start:			Sun Dec 21 21:14:02 2025
+[runlim] main pid:		15331
 gfp app: ../pdtinv25/benchmarks/st/6s276rb342.st.aig ./proc_invariants_td/6s276rb342.st-T6.aig ./gfp_invariants_td/6s276rb342.st-T6.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,17 +17,39 @@ gfp app: ../pdtinv25/benchmarks/st/6s276rb342.st.aig ./proc_invariants_td/6s276r
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 6824
-FATAL ERROR: fix point not reached
-             File /mnt/c/Users/PAS/Desktop/PostDoc/ModelChecking/PdTRAV/pdtools/pdtrav/src/trav/travSat.c -> Line 17201
-pdtapp: /mnt/c/Users/PAS/Desktop/PostDoc/ModelChecking/PdTRAV/pdtools/pdtrav/src/trav/travSat.c:17201: int itpStrengthenReachedGfp(Trav_ItpTravMgr_t*, int*, int, int, int, int): Assertion `fp' failed.
-[runlim] sample:		1.0 seconds, 126.7 MB
-[runlim] sample:		1.8 seconds, 126.7 MB
-[runlim] end:			Mon May 19 23:29:29 2025
-[runlim] status:		signal(6)
-[runlim] result:		134
+ITP based GFP - reached size: 11680
+
+GFP iteration [0] - reached size: 10102
+
+GFP iteration [1] - reached size: 9800
+
+GFP iteration [2] - reached size: 9717
+
+GFP iteration [3] - reached size: 9656
+
+GFP iteration [4] - reached size: 9627
+
+GFP iteration [5] - reached size: 9598
+
+GFP iteration [6] - reached size: 9588
+
+GFP iteration [7] - reached size: 9574
+
+GFP iteration [8] - reached size: 9553
+
+GFP iteration [9] - reached size: 9537
+GFP reached reduction iter 0: 11680 -> 9552
+
+GFP time:  3.65 s (norm 3.65 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 21:14:06 2025
+[runlim] status:		ok
+[runlim] result:		0
 [runlim] children:		0
-[runlim] real:			22.86 seconds
-[runlim] time:			2.01 seconds
-[runlim] space:			126.7 MB
-[runlim] samples:		225
+[runlim] real:			4.17 seconds
+[runlim] time:			3.79 seconds
+[runlim] space:			216.1 MB
+[runlim] samples:		38

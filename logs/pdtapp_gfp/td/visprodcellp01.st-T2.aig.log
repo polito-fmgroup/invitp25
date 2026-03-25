@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/st/visprodcellp01.st.aig
 [runlim] argv[3]:		./proc_invariants_td/visprodcellp01.st-T2.aig
 [runlim] argv[4]:		./gfp_invariants_td/visprodcellp01.st-T2.aig
-[runlim] start:			Mon May 19 23:38:45 2025
-[runlim] main pid:		478
+[runlim] start:			Sun Dec 21 21:15:52 2025
+[runlim] main pid:		15429
 gfp app: ../pdtinv25/benchmarks/st/visprodcellp01.st.aig ./proc_invariants_td/visprodcellp01.st-T2.aig ./gfp_invariants_td/visprodcellp01.st-T2.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,23 +17,31 @@ gfp app: ../pdtinv25/benchmarks/st/visprodcellp01.st.aig ./proc_invariants_td/vi
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 273
+ITP based GFP - reached size: 319
 
-GFP iteration [0] - reached size: 267
+GFP iteration [0] - reached size: 308
 
-GFP iteration [1] - reached size: 265
+GFP iteration [1] - reached size: 305
 
-GFP iteration [2] - reached size: 265
-GFP reached reduction iter 0: 273 -> 264
+GFP iteration [2] - reached size: 304
+
+GFP iteration [3] - reached size: 303
+
+GFP iteration [4] - reached size: 302
+
+GFP iteration [5] - reached size: 302
+GFP reached reduction iter 0: 319 -> 301
+
+GFP time:  0.15 s (norm 0.15 s)
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Mon May 19 23:38:46 2025
+[runlim] end:			Sun Dec 21 21:15:52 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			1.82 seconds
-[runlim] time:			0.26 seconds
-[runlim] space:			84.2 MB
-[runlim] samples:		12
+[runlim] real:			0.24 seconds
+[runlim] time:			0.10 seconds
+[runlim] space:			83.4 MB
+[runlim] samples:		1

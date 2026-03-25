@@ -1,0 +1,36 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		../pdtinv25/benchmarks/st/neclaftp4002.st.aig
+[runlim] argv[3]:		./proc_invariants_td/neclaftp4002.st-T38.aig
+[runlim] start:			Fri Aug 29 10:32:45 2025
+[runlim] main pid:		31559
+certify app: ../pdtinv25/benchmarks/st/neclaftp4002.st.aig ./proc_invariants_td/neclaftp4002.st-T38.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 5069
+
+Check Done for init proved
+Checking inductive invariant of size. 5069
+
+Check Done invariant proved - time: 0.03 s (norm 0.03 s)
+Checking property of size. 19
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Fri Aug 29 10:32:45 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.63 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0

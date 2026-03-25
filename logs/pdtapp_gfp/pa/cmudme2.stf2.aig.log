@@ -1,0 +1,56 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/cmudme2.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/cmudme2.stf2.aig
+[runlim] argv[4]:		./gfp_invariants_pa/cmudme2.stf2.aig
+[runlim] start:			Sun Dec 21 20:52:54 2025
+[runlim] main pid:		14456
+gfp app: ../pdtinv25/benchmarks/stf2/cmudme2.stf2.aig ./proc_invariants_pa/cmudme2.stf2.aig ./gfp_invariants_pa/cmudme2.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 67015
+[runlim] sample:		10.0 seconds, 202.6 MB
+[runlim] sample:		20.0 seconds, 202.6 MB
+
+GFP iteration [0] - reached size: 25323
+[runlim] sample:		30.0 seconds, 188.7 MB
+
+GFP iteration [1] - reached size: 1880
+
+GFP iteration [2] - reached size: 1868
+
+GFP iteration [3] - reached size: 1857
+
+GFP iteration [4] - reached size: 1851
+
+GFP iteration [5] - reached size: 1844
+
+GFP iteration [6] - reached size: 1837
+
+GFP iteration [7] - reached size: 1830
+
+GFP iteration [8] - reached size: 1830
+GFP reached reduction iter 0: 67015 -> 1829
+
+GFP time:  38.88 s (norm 38.88 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 20:53:33 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			40.00 seconds
+[runlim] time:			38.98 seconds
+[runlim] space:			202.6 MB
+[runlim] samples:		390

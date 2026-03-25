@@ -1,41 +1,33 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	7200 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		certify
 [runlim] argv[2]:		-t
 [runlim] argv[3]:		2
-[runlim] argv[4]:		-i
+[runlim] argv[4]:		-w
 [runlim] argv[5]:		./proc_invariants_td/bob9234specand.st-T2.aig
-[runlim] argv[6]:		./benchmarks/st/bob9234specand.st.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/bob9234specand.st.aig
 [runlim] argv[7]:		./invariants_td/bob9234specand.st-T2.aig
-[runlim] start:			Tue May 13 21:48:55 2025
-[runlim] main pid:		521
-certify app: -t -i ./benchmarks/st/bob9234specand.st.aig ./invariants_td/bob9234specand.st-T2.aig
+[runlim] start:			Sun Dec 21 22:39:26 2025
+[runlim] main pid:		16014
+certify app: -t -w ../pdtinv25/benchmarks/st/bob9234specand.st.aig ./invariants_td/bob9234specand.st-T2.aig
 -- App Manager Init.
 -- DDI Manager Init.
 -- FSM Manager Init.
 -- TRAV Manager Init.
 Checking inductive invariant of size. 0
-
-Check Done for init disproved
-Checking inductive invariant of size. 0
-
-Check Done invariant proved - time: 0.00 s (norm 0.00 s)
-Checking property of size. 0
-
-Check Done property proved - time: 0.00 s (norm 0.00 s)
-Writing invar to ./proc_invariants_td/bob9234specand.st-T2.aig
--- App Manager Quit.
--- TRAV Manager Quit.
--- FSM Manager Quit.
--- DDI Manager Quit.
-[runlim] end:			Tue May 13 21:48:55 2025
-[runlim] status:		ok
-[runlim] result:		0
+|itpGEN:0,1352(0)|.
+itpGEN time: 0.00 s (norm 0.00 s)
+ FATAL ERROR: UNSAT required for ITPGEN
+             File /mnt/c/Users/PAS/Desktop/PostDoc/ModelChecking/PdTRAV/pdtools/pdtrav/src/trav/travSat.c -> Line 10160
+pdtapp: /mnt/c/Users/PAS/Desktop/PostDoc/ModelChecking/PdTRAV/pdtools/pdtrav/src/trav/travSat.c:10160: Ddi_Bddarray_t* genItpSequence(Ddi_Bddarray_t*, Ddi_Bdd_t*, Ddi_Bdd_t*, Ddi_Bdd_t*, Ddi_Bdd_t*, Ddi_Bdd_t*, int, Ddi_Vararray_t*, Ddi_Vararray_t*, Ddi_Vararray_t*, int): Assertion `resItpGen >= 0' failed.
+[runlim] end:			Sun Dec 21 22:39:26 2025
+[runlim] status:		signal(6)
+[runlim] result:		134
 [runlim] children:		0
-[runlim] real:			0.86 seconds
-[runlim] time:			0.02 seconds
-[runlim] space:			73.7 MB
-[runlim] samples:		3
+[runlim] real:			0.20 seconds
+[runlim] time:			0.03 seconds
+[runlim] space:			75.4 MB
+[runlim] samples:		1

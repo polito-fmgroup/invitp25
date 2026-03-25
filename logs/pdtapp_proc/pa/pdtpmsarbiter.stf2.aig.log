@@ -1,16 +1,44 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	1800 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		certify
 [runlim] argv[2]:		-f
 [runlim] argv[3]:		2
-[runlim] argv[4]:		-i
+[runlim] argv[4]:		-w
 [runlim] argv[5]:		./proc_invariants_pa/pdtpmsarbiter.stf2.aig
-[runlim] argv[6]:		./benchmarks/stf2/pdtpmsarbiter.stf2.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/stf2/pdtpmsarbiter.stf2.aig
 [runlim] argv[7]:		./invariants_pa/pdtpmsarbiter.stf2.aig
-[runlim] start:			Tue May 13 21:01:05 2025
-[runlim] main pid:		1371
-certify app: -f -i ./benchmarks/stf2/pdtpmsarbiter.stf2.aig
-bdd merge: 42
+[runlim] start:			Sun Dec 21 12:39:44 2025
+[runlim] main pid:		7005
+certify app: -f -w ../pdtinv25/benchmarks/stf2/pdtpmsarbiter.stf2.aig ./invariants_pa/pdtpmsarbiter.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|itpGEN:373,659(0)|.
+|itpGEN:67| - nGen:31 (avg-#lits:  1.2).
+itpGEN time: 0.00 s (norm 0.00 s)
+ Checking inductive invariant of size. 54
+
+Check Done for init proved
+Checking inductive invariant of size. 54
+
+Check Done invariant proved - time: 0.00 s (norm 0.00 s)
+Checking property of size. 224
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar of size 95 to ./proc_invariants_pa/pdtpmsarbiter.stf2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 12:39:44 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.12 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0

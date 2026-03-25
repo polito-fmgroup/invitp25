@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/st/viselevatorp1.st.aig
 [runlim] argv[3]:		./proc_invariants_td/viselevatorp1.st-T2.aig
 [runlim] argv[4]:		./gfp_invariants_td/viselevatorp1.st-T2.aig
-[runlim] start:			Mon May 19 23:38:43 2025
-[runlim] main pid:		474
+[runlim] start:			Sun Dec 21 21:14:52 2025
+[runlim] main pid:		15389
 gfp app: ../pdtinv25/benchmarks/st/viselevatorp1.st.aig ./proc_invariants_td/viselevatorp1.st-T2.aig ./gfp_invariants_td/viselevatorp1.st-T2.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,18 +17,20 @@ gfp app: ../pdtinv25/benchmarks/st/viselevatorp1.st.aig ./proc_invariants_td/vis
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 83
+ITP based GFP - reached size: 84
 
-GFP iteration [0] - reached size: 83
+GFP iteration [0] - reached size: 84
+
+GFP time:  0.02 s (norm 0.02 s)
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Mon May 19 23:38:44 2025
+[runlim] end:			Sun Dec 21 21:14:52 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			1.88 seconds
-[runlim] time:			0.08 seconds
-[runlim] space:			78.8 MB
-[runlim] samples:		10
+[runlim] real:			0.45 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0

@@ -1,0 +1,88 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		../pdtinv25/benchmarks/st/bobsmi2c.st.aig
+[runlim] argv[3]:		./proc_invariants_pa/bobsmi2c.stf2.aig
+[runlim] start:			Fri Aug 29 10:23:54 2025
+[runlim] main pid:		31320
+certify app: ../pdtinv25/benchmarks/st/bobsmi2c.st.aig ./proc_invariants_pa/bobsmi2c.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 1379020
+
+Check Done for init proved
+Checking inductive invariant of size. 1379020
+[runlim] sample:		10.0 seconds, 1164.5 MB
+[runlim] sample:		20.0 seconds, 1731.5 MB
+[runlim] sample:		30.0 seconds, 1731.5 MB
+[runlim] sample:		40.0 seconds, 1731.5 MB
+[runlim] sample:		50.0 seconds, 1731.5 MB
+[runlim] sample:		60.0 seconds, 1731.5 MB
+[runlim] sample:		70.0 seconds, 1731.5 MB
+[runlim] sample:		80.0 seconds, 1731.5 MB
+[runlim] sample:		90.0 seconds, 1731.5 MB
+[runlim] sample:		100.0 seconds, 1731.5 MB
+[runlim] sample:		110.0 seconds, 1731.5 MB
+[runlim] sample:		120.0 seconds, 1731.5 MB
+[runlim] sample:		129.9 seconds, 1731.5 MB
+[runlim] sample:		139.9 seconds, 1731.5 MB
+[runlim] sample:		149.9 seconds, 1731.5 MB
+[runlim] sample:		159.9 seconds, 1731.5 MB
+[runlim] sample:		169.9 seconds, 1731.5 MB
+[runlim] sample:		179.9 seconds, 1731.5 MB
+[runlim] sample:		189.9 seconds, 1731.5 MB
+[runlim] sample:		199.9 seconds, 1731.5 MB
+[runlim] sample:		209.9 seconds, 1731.5 MB
+[runlim] sample:		219.9 seconds, 1731.5 MB
+[runlim] sample:		229.9 seconds, 1731.5 MB
+[runlim] sample:		239.9 seconds, 1731.5 MB
+[runlim] sample:		249.9 seconds, 1731.5 MB
+[runlim] sample:		259.9 seconds, 1731.5 MB
+[runlim] sample:		269.9 seconds, 1731.5 MB
+[runlim] sample:		279.9 seconds, 1731.5 MB
+[runlim] sample:		289.9 seconds, 1731.5 MB
+[runlim] sample:		299.9 seconds, 1731.5 MB
+[runlim] sample:		309.9 seconds, 1731.5 MB
+[runlim] sample:		319.9 seconds, 1731.5 MB
+[runlim] sample:		329.9 seconds, 1731.5 MB
+[runlim] sample:		339.9 seconds, 1731.5 MB
+[runlim] sample:		349.9 seconds, 1731.5 MB
+[runlim] sample:		359.9 seconds, 1731.5 MB
+[runlim] sample:		369.9 seconds, 1731.5 MB
+[runlim] sample:		379.9 seconds, 1731.5 MB
+[runlim] sample:		389.9 seconds, 1731.5 MB
+[runlim] sample:		399.9 seconds, 1731.5 MB
+[runlim] sample:		409.9 seconds, 1731.5 MB
+[runlim] sample:		419.9 seconds, 1731.5 MB
+[runlim] sample:		429.9 seconds, 1731.5 MB
+[runlim] sample:		439.9 seconds, 1731.5 MB
+[runlim] sample:		449.9 seconds, 1731.5 MB
+[runlim] sample:		459.9 seconds, 1731.5 MB
+[runlim] sample:		469.9 seconds, 1731.5 MB
+[runlim] sample:		479.8 seconds, 1731.5 MB
+[runlim] sample:		489.8 seconds, 1731.5 MB
+[runlim] sample:		499.8 seconds, 1731.5 MB
+[runlim] sample:		509.8 seconds, 1731.5 MB
+
+Check Done invariant disproved - time: 508.16 s (norm 508.16 s)
+Checking property of size. 71
+[runlim] sample:		519.8 seconds, 1610.2 MB
+
+Check Done property proved - time: 5.12 s (norm 5.12 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Fri Aug 29 10:32:35 2025
+[runlim] status:		ok
+[runlim] result:		1
+[runlim] children:		0
+[runlim] real:			521.42 seconds
+[runlim] time:			520.83 seconds
+[runlim] space:			1731.5 MB
+[runlim] samples:		5210

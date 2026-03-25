@@ -1,0 +1,44 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		2
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/eijks1196.st-T2.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/eijks1196.st.aig
+[runlim] argv[7]:		./invariants_td/eijks1196.st-T2.aig
+[runlim] start:			Sun Dec 21 10:19:33 2025
+[runlim] main pid:		3394
+certify app: -t -w ../pdtinv25/benchmarks/st/eijks1196.st.aig ./invariants_td/eijks1196.st-T2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 259
+|itpGEN:1305,793(0)|.
+|itpGEN:204| - nGen:69 (avg-#lits:  2.5).
+itpGEN time: 0.09 s (norm 0.09 s)
+ 
+Check Done for init proved
+Checking inductive invariant of size. 259
+
+Check Done invariant proved - time: 0.01 s (norm 0.01 s)
+Checking property of size. 927
+
+Check Done property proved - time: 0.02 s (norm 0.02 s)
+Writing invar of size 424 to ./proc_invariants_td/eijks1196.st-T2.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 10:19:33 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.27 seconds
+[runlim] time:			0.18 seconds
+[runlim] space:			76.0 MB
+[runlim] samples:		2

@@ -1,0 +1,65 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		certify
+[runlim] argv[2]:		-t
+[runlim] argv[3]:		9
+[runlim] argv[4]:		-w
+[runlim] argv[5]:		./proc_invariants_td/eijks444.st-T9.aig
+[runlim] argv[6]:		../pdtinv25/benchmarks/st/eijks444.st.aig
+[runlim] argv[7]:		./invariants_td/eijks444.st-T9.aig
+[runlim] start:			Sun Dec 21 11:27:17 2025
+[runlim] main pid:		5207
+certify app: -t -w ../pdtinv25/benchmarks/st/eijks444.st.aig ./invariants_td/eijks444.st-T9.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+Checking inductive invariant of size. 2295
+|itpGEN:4692,617(0)|.
+|itpGEN:154| - nGen:71 (avg-#lits:  1.4).
+itpGEN time: 0.14 s (norm 0.14 s)
+ |itpGEN:4390,660(0)|.
+|itpGEN:172| - nGen:76 (avg-#lits:  1.7).
+itpGEN time: 0.14 s (norm 0.14 s)
+ |itpGEN:4088,679(0)|.
+|itpGEN:222| - nGen:92 (avg-#lits:  2.1).
+itpGEN time: 0.13 s (norm 0.13 s)
+ |itpGEN:3786,728(0)|.
+|itpGEN:233| - nGen:96 (avg-#lits:  2.1).
+itpGEN time: 0.12 s (norm 0.12 s)
+ |itpGEN:3484,741(0)|.
+|itpGEN:286| - nGen:113 (avg-#lits:  2.3).
+itpGEN time: 0.08 s (norm 0.08 s)
+ |itpGEN:3182,793(0)|.
+|itpGEN:264| - nGen:105 (avg-#lits:  2.2).
+itpGEN time: 0.05 s (norm 0.05 s)
+ |itpGEN:2880,772(0)|.
+|itpGEN:277| - nGen:104 (avg-#lits:  2.4).
+itpGEN time: 0.04 s (norm 0.04 s)
+ |itpGEN:2578,783(0)|.
+|itpGEN:295| - nGen:109 (avg-#lits:  2.4).
+itpGEN time: 0.04 s (norm 0.04 s)
+ 
+Check Done for init proved
+Checking inductive invariant of size. 2295
+
+Check Done invariant proved - time: 0.06 s (norm 0.06 s)
+Checking property of size. 35
+
+Check Done property proved - time: 0.00 s (norm 0.00 s)
+Writing invar of size 3350 to ./proc_invariants_td/eijks444.st-T9.aig
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 11:27:18 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.83 seconds
+[runlim] time:			0.89 seconds
+[runlim] space:			83.3 MB
+[runlim] samples:		9

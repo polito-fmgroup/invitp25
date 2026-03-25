@@ -1,14 +1,14 @@
 [runlim] version:		1.7
 [runlim] time limit:		311040000 seconds
-[runlim] real time limit:	900 seconds
-[runlim] space limit:		4096 MB
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
 [runlim] argv[0]:		./pdtapp
 [runlim] argv[1]:		gfp
 [runlim] argv[2]:		../pdtinv25/benchmarks/stf2/eijks349.stf2.aig
 [runlim] argv[3]:		./proc_invariants_pa/eijks349.stf2.aig
 [runlim] argv[4]:		./gfp_invariants_pa/eijks349.stf2.aig
-[runlim] start:			Mon May 19 20:42:50 2025
-[runlim] main pid:		406
+[runlim] start:			Sun Dec 21 20:18:42 2025
+[runlim] main pid:		13606
 gfp app: ../pdtinv25/benchmarks/stf2/eijks349.stf2.aig ./proc_invariants_pa/eijks349.stf2.aig ./gfp_invariants_pa/eijks349.stf2.aig
 -- App Manager Init.
 -- DDI Manager Init.
@@ -17,35 +17,41 @@ gfp app: ../pdtinv25/benchmarks/stf2/eijks349.stf2.aig ./proc_invariants_pa/eijk
 |Constraint|=0 nodes.
 1 stalled latches found
 
-ITP based GFP - reached size: 50452
-[runlim] sample:		9.6 seconds, 160.4 MB
+ITP based GFP - reached size: 13756
 
-GFP iteration [0] - reached size: 3773
+GFP iteration [0] - reached size: 10064
 
-GFP iteration [1] - reached size: 3188
+GFP iteration [1] - reached size: 7831
+[runlim] sample:		10.0 seconds, 108.4 MB
 
-GFP iteration [2] - reached size: 3174
+GFP iteration [2] - reached size: 7337
 
-GFP iteration [3] - reached size: 3169
-[runlim] sample:		19.4 seconds, 163.4 MB
+GFP iteration [3] - reached size: 7050
 
-GFP iteration [4] - reached size: 3160
+GFP iteration [4] - reached size: 6904
 
-GFP iteration [5] - reached size: 3159
+GFP iteration [5] - reached size: 6766
 
-GFP iteration [6] - reached size: 3157
+GFP iteration [6] - reached size: 6714
 
-GFP iteration [7] - reached size: 3157
-GFP reached reduction iter 0: 50452 -> 3156
+GFP iteration [7] - reached size: 6703
+[runlim] sample:		20.0 seconds, 108.4 MB
+
+GFP iteration [8] - reached size: 6686
+
+GFP iteration [9] - reached size: 6653
+GFP reached reduction iter 0: 13756 -> 6685
+
+GFP time:  22.57 s (norm 22.57 s)
 -- App Manager Quit.
 -- TRAV Manager Quit.
 -- FSM Manager Quit.
 -- DDI Manager Quit.
-[runlim] end:			Mon May 19 20:43:14 2025
+[runlim] end:			Sun Dec 21 20:19:05 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			24.42 seconds
-[runlim] time:			22.97 seconds
-[runlim] space:			163.4 MB
-[runlim] samples:		236
+[runlim] real:			23.54 seconds
+[runlim] time:			22.59 seconds
+[runlim] space:			138.5 MB
+[runlim] samples:		226

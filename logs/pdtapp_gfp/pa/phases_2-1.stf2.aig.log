@@ -1,0 +1,41 @@
+[runlim] version:		1.7
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		32767 MB
+[runlim] argv[0]:		./pdtapp
+[runlim] argv[1]:		gfp
+[runlim] argv[2]:		../pdtinv25/benchmarks/stf2/phases_2-1.stf2.aig
+[runlim] argv[3]:		./proc_invariants_pa/phases_2-1.stf2.aig
+[runlim] argv[4]:		./gfp_invariants_pa/phases_2-1.stf2.aig
+[runlim] start:			Sun Dec 21 21:06:41 2025
+[runlim] main pid:		14917
+gfp app: ../pdtinv25/benchmarks/stf2/phases_2-1.stf2.aig ./proc_invariants_pa/phases_2-1.stf2.aig ./gfp_invariants_pa/phases_2-1.stf2.aig
+-- App Manager Init.
+-- DDI Manager Init.
+-- FSM Manager Init.
+-- TRAV Manager Init.
+|Constraint|=0 nodes.
+1 stalled latches found
+
+ITP based GFP - reached size: 273
+
+GFP iteration [0] - reached size: 159
+
+GFP iteration [1] - reached size: 97
+
+GFP iteration [2] - reached size: 97
+GFP reached reduction iter 0: 273 -> 96
+
+GFP time:  0.22 s (norm 0.22 s)
+-- App Manager Quit.
+-- TRAV Manager Quit.
+-- FSM Manager Quit.
+-- DDI Manager Quit.
+[runlim] end:			Sun Dec 21 21:06:41 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.96 seconds
+[runlim] time:			0.19 seconds
+[runlim] space:			104.6 MB
+[runlim] samples:		2
